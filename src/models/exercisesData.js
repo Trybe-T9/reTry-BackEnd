@@ -5,6 +5,7 @@ const exercises = [
     bloco: 8,
     question: 'Quais das opções abaixo não são consideradas HOF’S (Higher Order Functions)?',
     image: '',
+    dificulty: 'hard',
     options: [
       {
         answer: 'forEach',
