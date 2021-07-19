@@ -19,7 +19,7 @@ const validEmailFormat = (email) => {
 
 const existEmail = async (email) => {
   const result = await users.findByEmail(email);
-  if (!result) { // TODO: remover apos criar as tabelas no banco
+  if (!result) { // TODO: remover ponto de exclamacao apos criar as tabelas no banco
     const err = { status: 409, message: 'Email already registered' }; 
     throw err;
   }
