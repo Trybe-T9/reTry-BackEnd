@@ -3,7 +3,11 @@ const validate = require('../utils/usersValidate');
 
 const create = async (user) => {
   await validate.user(user);
-  const result = await users.create(user);
+  const newUser = user;
+  newUser.role = 'user';
+  const encodedPassword = validate.encodePassword(newUser.password)
+  newUser.password = encodedPassword;
+  const result = await users.create(newUser);
   return result;
 };
 
