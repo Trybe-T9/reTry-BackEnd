@@ -15,7 +15,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(routes);
 
 app.use((err, _req, res, _next) => {
-  if (err.status) return res.status(err.status).json(err.message);
+  if (err.status) return res.status(err.status).json({ message: err.message });
   res.status(500).json({ message: `Internal Error: ${err.message}` });
 });
 
