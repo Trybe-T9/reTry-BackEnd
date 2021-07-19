@@ -1,4 +1,4 @@
-// const md5 = require('md5');
+const md5 = require('md5');
 
 const users = require('../models/usersModel');
 
@@ -38,7 +38,7 @@ const existEmail = async (email) => {
 };
 
 const encodePassword = (password) => {
-  return password;
+  return md5(password);
 };
 
 const user = async (userFields) => {
