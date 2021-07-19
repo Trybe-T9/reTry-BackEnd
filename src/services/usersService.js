@@ -10,7 +10,13 @@ const findById = async (id) => {
   return result;
 };
 
+const findByAll = async () => {
+  const result = await users.findByAll();
+  return result;
+};
+
 module.exports = {
   create,
   findById,
+  findByAll,
 };
