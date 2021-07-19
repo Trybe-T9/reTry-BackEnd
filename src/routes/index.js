@@ -1,12 +1,9 @@
 const routes = require('express').Router();
 
-const usersRoute = require('./usersRoute');
-const questionsRoute = require('./questionsRoute');
-const loginRoute = require('./loginRoute');
+const api = require('./api');
+const admin = require('./admin');
 
-routes.use('/ping', (_req, res) => res.status(200).json({ message: 'pong' }));
-routes.use('/questions', questionsRoute);
-routes.use('/users', usersRoute);
-routes.use('/login', loginRoute);
+routes.use('/api/v1', api);
+routes.use('/admin', admin);
 
 module.exports = routes;
