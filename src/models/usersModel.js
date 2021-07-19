@@ -14,6 +14,13 @@ const findById = async (id) => {
   return result.rows[0];
 };
 
+const findByEmail = async (email) => {
+  const pg = await pool.connect();
+  const result = await pg.query('SELECT NOW()');
+  await pg.end();
+  return result.rows[0];
+};
+
 const findByAll = async () => {
   const pg = await pool.connect();
   const result = await pg.query('SELECT NOW()');
@@ -24,5 +31,6 @@ const findByAll = async () => {
 module.exports = {
   create,
   findById,
+  findByEmail,
   findByAll,
 };
