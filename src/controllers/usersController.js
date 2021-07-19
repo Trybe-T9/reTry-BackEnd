@@ -6,6 +6,13 @@ const create = async (req, res) => {
   return res.status(201).json(result);
  };
 
+ const findById = async (req, res) => {
+  const { id } = req.params;
+  const result = await users.findById(id);
+  return res.status(200).json(result);
+ };
+
 module.exports = {
   create,
+  findById,
 };

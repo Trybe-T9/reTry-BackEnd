@@ -5,6 +5,12 @@ const create = async (user) => {
   return result;
 };
 
+const findById = async (id) => {
+  const result = await users.findById(id);
+  return result;
+};
+
 module.exports = {
   create,
+  findById,
 };
