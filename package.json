@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./src/server.js",
+    "start": "pm2-runtime start ecosystem.config.yml",
     "dev": "nodemon ./src/server.js"
   },
   "repository": {
@@ -29,7 +29,8 @@
     "express-rescue": "^1.1.31",
     "jsonwebtoken": "^8.5.1",
     "md5": "^2.3.0",
-    "pg": "^8.6.0"
+    "pg": "^8.6.0",
+    "pm2": "^5.1.0"
   },
   "devDependencies": {
     "eslint": "^7.31.0",
