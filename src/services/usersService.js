@@ -1,4 +1,4 @@
-const users = require('../models/usersModel');
+const users = require('../model/usersModel');
 const validate = require('../utils/usersValidate');
 
 const create = async (user) => {

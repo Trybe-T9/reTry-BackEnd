@@ -1,4 +1,4 @@
-const questions = require('../models/questionsModel');
+const questions = require('../model/questionsModel');
 
 const getFundamentos = async () => {
   return await questions.getFundamentos();

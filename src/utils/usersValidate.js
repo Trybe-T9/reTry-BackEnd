@@ -1,6 +1,6 @@
 const md5 = require('md5');
 
-const users = require('../models/usersModel');
+const users = require('../model/usersModel');
 
 const fields = (user) => {
   if (!user.user_name || !user.email || !user.password) {

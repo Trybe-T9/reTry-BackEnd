@@ -1,4 +1,4 @@
-const data = require('./exercisesData.js');
+const data = require('../model/exercisesData.js');
 
 const getFundamentos = async () => {
   return await data.filter(({ modulo }) => modulo === 'fundamentos');
