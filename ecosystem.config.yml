@@ -1,6 +1,5 @@
 apps:
   - name: reTry-backend
     script: ./src/server.js
-    exec_mode: cluster
-    instances: 2
+    max_memory_restart: 250M
     
