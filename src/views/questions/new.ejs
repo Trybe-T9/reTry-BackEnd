@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nova pergunta</title>
+</head>
+<body>
+  <header>Adicionar pergunta</header>
+  <main>
+    <form action="/api/v1/questions" method="POST">
+      <label>
+        Pergunta: 
+        <input type="text" name="question" />
+      </label>
+      <label>
+        Tipo:
+        <select name="type">
+          <option value="mult-choice">Multipla escolha</option>
+          <option value="boolean">Verdadeiro ou falso</option>
+        </select>
+      </label>
+      <label>
+        Dificuldade:
+        <select name="difficulty">
+          <option value="1">Fácil</option>
+          <option value="2">Médio</option>
+          <option value="3">Difícil</option>
+        </select>
+      </label>
+      <label>
+        Tema:
+        <input type="text" name="theme" />
+      </label>
+      <label>
+        Url da imagem:
+        <input type="url" name="image" />
+      </label>
+      <label>
+        Modulo:
+        <select name="module_id">
+          <option value="efff8570-5cb7-4090-bd58-46f4b5a335a6">Fundamentos</option>
+          <option value="a5df9455-4d7f-4f52-94cb-eb830b416cad">Front-end</option>
+          <option value="afdd5680-b811-4aeb-b229-6e7f3351bd01">Back-end</option>
+          <option value="f3ec9930-d2e3-4423-88e8-a28c6aa0265a">Ciência da computação</option>
+        </select>
+      </label>
+      <button type="submit">Salvar</button>
+    </form>
+  </main>
+</body>
+</html>

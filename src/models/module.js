@@ -4,7 +4,6 @@ const modules = (sequelize, DataTypes) => {
       type: DataTypes.UUID,
       defaultValue: DataTypes.UUIDV4,
       primaryKey: true,
-      autoIncrement: true,
     },
     module: DataTypes.STRING,
     description: DataTypes.TEXT,
@@ -17,7 +16,7 @@ const modules = (sequelize, DataTypes) => {
   module.associate = (models) => {
     module.hasMany(
       models.question,
-      { foreignKey: 'module_id', as: 'module_name' },
+      { foreignKey: 'module_id', as: 'module_data' },
     );
   };
 

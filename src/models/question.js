@@ -24,7 +24,7 @@ const question = (sequelize, DataTypes) => {
     );
     question.belongsTo(
       models.module,
-      { foreignKey: 'module_id', as: 'module_name' },
+      { foreignKey: 'module_id', as: 'module_data' },
     );
   };
 

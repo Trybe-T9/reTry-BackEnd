@@ -22,7 +22,7 @@ module.exports = {
       image: 'images/questao1.png',
       module_id: 'a5df9455-4d7f-4f52-94cb-eb830b416cad',
       user_id: '911cac15-2492-400e-9d86-b4fca881de8e',
-    }
+    },
   ], {}),
 
   down: async (queryInterface, Sequelize) => queryInterface.bulkDelete('question', null, {})
