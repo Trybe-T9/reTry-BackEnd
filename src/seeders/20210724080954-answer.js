@@ -922,7 +922,39 @@ module.exports = {
       hint: 'Não é essa a reação do React, não. Hehehe. Quando declaramos mas não passamos um valor para a prop, o React interpreta que seu valor é "true". No link a seguir você confere mais informações sobre esta e outras formas de passar valores em props no React:',
       link: 'https://pt-br.reactjs.org/docs/jsx-in-depth.html#props-default-to-true',
       question_id: '41d007ac-c90a-4a2b-8d91-e77a195afdc2'
-    }
+    },
+    {
+      id: 'e9156e11-d918-4e6a-ac18-d2316a3b9b36',
+      answer: 'controllers',
+      hint: 'Na verdade, essa camada seria responsável por receber e enviar requisições.',
+      is_right: false,
+      link: 'https://dev.to/santypk4/bulletproof-node-js-project-architecture-4epf',
+      question_id: '5494748b-41f9-4642-b331-2515ec3253d2'
+    },
+    {
+      id: '94d63cd1-e965-45f4-905a-8237d72267ed',
+      answer: 'services',
+      hint: 'Essa camada é responsável por implementar as regras de negócio da sua aplicação.',
+      is_right: false,
+      link: 'https://dev.to/santypk4/bulletproof-node-js-project-architecture-4epf',
+      question_id: '5494748b-41f9-4642-b331-2515ec3253d2'
+    },
+    {
+      id: '7a179400-38f8-4666-8487-6546886ca7eb',
+      answer: 'models',
+      hint: 'Correto! A camada models acessa e manipula as informações de um banco de dados e as retorna de acordo com a requisição feita.',
+      is_right: true,
+      link: 'https://dev.to/santypk4/bulletproof-node-js-project-architecture-4epf',
+      question_id: '5494748b-41f9-4642-b331-2515ec3253d2'
+    },
+    {
+      id: '4318e8ac-fe81-40ec-b3f9-d6c5eb1af858',
+      answer: 'middlewares',
+      hint: 'Na verdade, middlewares são funções intermediárias entre uma requisição HTTP e a resposta final que o servidor envia para o cliente.',
+      is_right: false,
+      link: 'https://pt.stackoverflow.com/questions/64507/o-que-s%C3%A3o-middlewares-em-nodejs',
+      question_id: '5494748b-41f9-4642-b331-2515ec3253d2'
+    },
   ], {}),
 
   down: async (queryInterface, Sequelize) => queryInterface.bulkDelete('answer', null, {})

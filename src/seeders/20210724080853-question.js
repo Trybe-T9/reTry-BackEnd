@@ -371,6 +371,17 @@ module.exports = {
       block_id: 12,
       module_id: 'a5df9455-4d7f-4f52-94cb-eb830b416cad',
       user_id: ''
+    },
+    {
+      id: '5494748b-41f9-4642-b331-2515ec3253d2',
+      question: 'De acordo com o modelo de arquitetura de softwate MSC, em que camada são feitas as manipulações de dados?',
+      type: 'multi-choice',
+      difficulty: 1,
+      theme: '',
+      image: null,
+      block_id: 27,
+      module_id: 'afdd5680-b811-4aeb-b229-6e7f3351bd01',
+      user_id: ''
     }
   ], {}),
 
