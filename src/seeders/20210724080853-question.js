@@ -361,9 +361,9 @@ module.exports = {
     },
     {
       id: '13638026-e9ee-4873-8ee6-ccc83901f915',
-      question: '<code><MyComponent customProp /></code>\n' +
-        '    Considerando o código acima, é correto dizer que dentro do componente "MyComponent" a prop "customProp" receberá o valor:\n' +
-        '    ',
+      question: `<code><MyComponent customProp /></code>
+      
+      Considerando o código acima, é correto dizer que dentro do componente "MyComponent" a prop "customProp" receberá o valor:`,
       type: 'multi-choice',
       difficulty: 3,
       theme: '',
