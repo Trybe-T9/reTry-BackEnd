@@ -369,7 +369,7 @@ module.exports = {
       theme: '',
       image: null,
       block_id: 12,
-      module_id: undefined,
+      module_id: 'a5df9455-4d7f-4f52-94cb-eb830b416cad',
       user_id: ''
     }
   ], {}),
