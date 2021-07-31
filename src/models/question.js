@@ -10,6 +10,7 @@ const question = (sequelize, DataTypes) => {
     difficulty: DataTypes.SMALLINT,
     theme: DataTypes.STRING(70),
     image: DataTypes.STRING(500),
+    block: DataTypes.SMALLINT,
     userId: { type: DataTypes.UUID, foreignKey: true },
   }, {
     tableName: 'question',

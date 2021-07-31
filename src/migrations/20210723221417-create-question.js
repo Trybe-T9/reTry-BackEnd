@@ -23,6 +23,9 @@ module.exports = {
       image: {
         type: DataTypes.STRING(500),
       },
+      block: {
+        type: DataTypes.SMALLINT,
+      },
       moduleId: {
         type: DataTypes.UUID,
         allowNull: false,
