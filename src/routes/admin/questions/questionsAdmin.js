@@ -13,7 +13,7 @@ routes.get('/create', async (_req, res, _next) => {
 
 routes.get('/:id', async (req, res, _next) => {
   const { id } = req.params;
-  const result = await questionsService.getByPk(id);
+  const result = await questionsService.getQuestionById(id);
   res.status(200).render('questions/details', { question: result.message });
 });
 
