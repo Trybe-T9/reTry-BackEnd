@@ -7,8 +7,8 @@ const getByQuery = async (query, pagination) => {
       { model: modules, as: 'module_data' },
       { model: answer, as: 'answers' },
     ],
-    limit: pagination.perpage || 10,
-    offset: pagination.offset,
+    limit: pagination.perpage,
+    offset: pagination.offset || 0,
   });
     return quest;
 };

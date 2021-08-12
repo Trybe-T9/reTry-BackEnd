@@ -3,11 +3,11 @@ const error = require('../utils/questionsErrors');
 const models = require('../models/questionModel');
 
 const paginate = (query) => {
-  const { perpage, page } = query;
+  const { perpage = 10, page } = query;
 
   let offset = (perpage * (page - 1));
 
-  if(offset < 0) offset = 0;
+  if(!offset) offset = 0;
 
   delete query.perpage;
   delete query.page;
@@ -18,11 +18,17 @@ const paginate = (query) => {
 
 const getQuery = async (query) => {
   const pagination = paginate(query);
+
+  const random = query.random;
+  delete query.random 
+
   const validKeys = validate.queryKeys(query);
 
   if (!validKeys) throw error.queryKeys;
 
-  const questions = await models.getByQuery(query, pagination);
+  let questions = await models.getByQuery(query, pagination);
+
+  if (random) questions = questions.sort(() => Math.random() - 0.5);
 
   return { status: 200, message: questions };
 };
