@@ -8,9 +8,10 @@ const getByQuery = async (query, pagination) => {
       { model: answer, as: 'answers' },
     ],
     limit: pagination.perpage,
-    offset: pagination.offset || 0,
+    offset: pagination.offset,
   });
-    return quest;
+
+  return quest;
 };
 
 const getQuestionById = async (pk) => {
@@ -21,6 +22,7 @@ const getQuestionById = async (pk) => {
       { model: answer, as: 'answers' },
     ],
   });
+  
   return quest;
 };
 

@@ -3,7 +3,7 @@ const error = require('../utils/questionsErrors');
 const models = require('../models/questionModel');
 
 const paginate = (query) => {
-  const { perpage = 10, page } = query;
+  const { perpage = 10, page = 1 } = query;
 
   let offset = (perpage * (page - 1));
 
