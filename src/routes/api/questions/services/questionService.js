@@ -43,7 +43,14 @@ const getQuestionById = async (pk) => {
   }
 };
 
+const getIndexMetrics = async () => {
+  const metrics = await models.getIndexMetrics();
+
+  return metrics;
+};
+
 module.exports = {
   getQuery,
   getQuestionById,
+  getIndexMetrics,
 };

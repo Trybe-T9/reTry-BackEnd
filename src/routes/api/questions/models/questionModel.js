@@ -22,11 +22,18 @@ const getQuestionById = async (pk) => {
       { model: answer, as: 'answers' },
     ],
   });
-  
+
   return quest;
+};
+
+const getIndexMetrics = async () => {
+  const questions = await question.count();
+
+  return { questions };
 };
 
 module.exports = {
   getByQuery,
   getQuestionById,
+  getIndexMetrics,
 };

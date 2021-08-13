@@ -16,8 +16,8 @@
       </label>
       <label>
         Tipo:
-        <select name="type">
-          <option value="mult-choice">Multipla escolha</option>
+        <select name="type" id="type">
+          <option value="multi-choice">Multipla escolha</option>
           <option value="boolean">Verdadeiro ou falso</option>
         </select>
       </label>
@@ -34,8 +34,8 @@
         <input type="text" name="theme" />
       </label>
       <label>
-        Url da imagem:
-        <input type="url" name="image" />
+        Imagem:
+        <input type="file" name="image" />
       </label>
       <label>
         Modulo:
@@ -46,8 +46,106 @@
           <option value="f3ec9930-d2e3-4423-88e8-a28c6aa0265a">Ciência da computação</option>
         </select>
       </label>
+      <label>
+        Bloco:
+        <input type="number" name="block" min="1" max="38" />
+      </label>
+      <fieldset id="answers">
+      </fieldset>
       <button type="submit">Salvar</button>
     </form>
+    <script>
+      const selectType = document.querySelector('#type');
+
+      const newAnswer = (index) => {
+        const label = document.createElement('label');
+        label.innerText = 'Resposta: ';
+
+        const answer = document.createElement('input');
+        answer.name = `answers[${index}][answer]`;
+        answer.type = 'text';
+
+        label.appendChild(answer);
+
+        return label;
+      }
+
+      const newRight = (index) => {
+        const label = document.createElement('label');
+        label.innerText = 'Resposta: ';
+
+        const select = document.createElement('select');
+        select.name = `answers[${index}][isRight]`;
+
+        const optionTrue = document.createElement('option');
+        optionTrue.value = 'true';
+        optionTrue.innerText = 'Correta';
+
+        const optionFalse = document.createElement('option');
+        optionFalse.value = 'false';
+        optionFalse.innerText = 'Errada';
+
+        select.appendChild(optionTrue);
+        select.appendChild(optionFalse);
+
+        label.appendChild(select);
+
+        return label;
+      }
+
+      const newHint = (index) => {
+        const label = document.createElement('label');
+        label.innerText = 'Dica: ';
+
+        const hint = document.createElement('textarea');
+        hint.name = `answers[${index}][hint]`;
+
+        label.appendChild(hint);
+
+        return label;
+      }
+
+      const newLink = (index) => {
+        const label = document.createElement('label');
+        label.innerText = 'Link: ';
+
+        const link = document.createElement('input');
+        link.name = `answers[${index}][link]`;
+        link.type = 'text';
+
+        label.appendChild(link);
+
+        return label;
+      }
+
+      const createAnswers = (qtt) => {
+        const field = document.querySelector('#answers');
+
+        field.innerHTML = '';
+
+        for(let index = 0; index < qtt; index += 1) {
+          const label = document.createElement('label');
+          label.innerText = `Resposta - ${index + 1}`;
+
+          label.appendChild(newAnswer(index));
+          label.appendChild(newRight(index));
+          label.appendChild(newHint(index));
+          label.appendChild(newLink(index));
+
+          field.appendChild(label);
+        }
+      };
+
+      selectType.addEventListener('change', () => {
+        const type = document.querySelector('#type').value;
+
+        if(type === 'multi-choice') createAnswers(4);
+
+        createAnswers(2);
+      });
+
+      createAnswers(4);
+    </script>
   </main>
 </body>
 </html>

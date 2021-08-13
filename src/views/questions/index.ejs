@@ -11,8 +11,11 @@
   <main>
     <button><a href="/admin/questions/create">Criar uma pergunta</a></button>
     <% questions.forEach((question) => { %>
-      <h4>Pergunta: <%= question.question %></h4>
       <p>Id: <%= question.id %></p>
+      <h4>Pergunta: <%= question.question %></h4>
+      <p>Tipo: <%= question.type %></p>
+      <p>Modulo: <%= question.module_data.module %></p>
+      <p>Bloco: <%= question.block %></p>
       <button><a href=<%= `/admin/questions/${question.id}` %>>Ver pergunta</a></button>
     <% }) %>
   </main>
