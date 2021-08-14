@@ -32,8 +32,18 @@ const getIndexMetrics = async () => {
   return { questions };
 };
 
+const postQuestion = (newQuestion) => {
+  return question.create(newQuestion);
+};
+
+const postAnswers = (newAnswers) => {
+  return answer.bulkCreate(newAnswers);
+};
+
 module.exports = {
-  getByQuery,
   getQuestionById,
   getIndexMetrics,
+  postQuestion,
+  postAnswers,
+  getByQuery,
 };

@@ -1,32 +1,19 @@
-const validate = require('../utils/validateQuestion');
-const error = require('../utils/questionsErrors');
-const models = require('../models/questionModel');
-
-const paginate = (query) => {
-  const { perpage = 10, page = 1 } = query;
-
-  let offset = (perpage * (page - 1));
-
-  if(!offset) offset = 0;
-
-  delete query.perpage;
-  delete query.page;
-
-  return { perpage, offset };
-};
-
+const Validate = require('../utils/validateQuestion');
+const Error = require('../utils/questionsErrors');
+const Models = require('../models/questionModel');
+const Utils = require('../utils/questionsUtils');
 
 const getQuery = async (query) => {
-  const pagination = paginate(query);
+  const pagination = Utils.paginate(query);
 
   const random = query.random;
   delete query.random 
 
-  const validKeys = validate.queryKeys(query);
+  const validKeys = Validate.queryKeys(query);
 
-  if (!validKeys) throw error.queryKeys;
+  if (!validKeys) throw Error.queryKeys;
 
-  let questions = await models.getByQuery(query, pagination);
+  let questions = await Models.getByQuery(query, pagination);
 
   if (random) questions = questions.sort(() => Math.random() - 0.5);
 
@@ -35,7 +22,7 @@ const getQuery = async (query) => {
 
 const getQuestionById = async (pk) => {
   try {
-    const question = await models.getQuestionById(pk);
+    const question = await Models.getQuestionById(pk);
     return { status: 200, message: question };
 
   } catch (error) {
@@ -44,13 +31,30 @@ const getQuestionById = async (pk) => {
 };
 
 const getIndexMetrics = async () => {
-  const metrics = await models.getIndexMetrics();
+  const metrics = await Models.getIndexMetrics();
 
   return metrics;
 };
 
+const postQuestion = async (question) => {
+  console.log(question);
+  let answers = Utils.separateAnswers(question);
+
+  //gambiarra até ter a tabela 'Users' completa :)
+  question.userId = '911cac15-2492-400e-9d86-b4fca881de8e';
+
+  const insertedQuestion = await Models.postQuestion(question);
+
+  answers = Utils.insertQuestionsId(answers, insertedQuestion.id);
+  
+  const insertedAnswers = await Models.postAnswers(answers);
+
+  console.log(insertedAnswers);
+};
+
 module.exports = {
-  getQuery,
   getQuestionById,
   getIndexMetrics,
+  postQuestion,
+  getQuery,
 };
