@@ -4,7 +4,15 @@ const questionsService = require('../../api/questions/services/questionService')
 
 routes.get('/', async (_req, res, _next) => {
   const result = await questionsService.getQuery({});
-  res.status(200).render('questions/index', { questions: result.message });
+  res.status(200).render('questions/index', { questions: result.message, query: {} });
+});
+
+routes.get('/search', async (req, res, _next) => {
+  const query = req.query;
+  const originalQuery = { ...query };
+
+  const result = await questionsService.getQuery(query);
+  res.status(200).render('questions/index', { questions: result.message, query: originalQuery });
 });
 
 routes.get('/create', async (_req, res, _next) => {
@@ -30,8 +38,6 @@ routes.get('/:id/delete', async (req, res, _next) => {
   } catch (error) {
     res.redirect(`${id}`);
   }
-
-  res.end();
 });
 
 routes.post('/:id/update', async (req, res, _next) => {
@@ -41,7 +47,7 @@ routes.post('/:id/update', async (req, res, _next) => {
   
   try {
     await questionsService.putQuestion(question, id);
-    res.redirect(`${id}`);
+    res.redirect(`/admin/questions/${id}`);
   } catch (error) {
     res.status(400).render(`questions/update`, { question: pastQuestions, error });
   }

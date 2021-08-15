@@ -13,6 +13,10 @@ const getQuery = async (query) => {
 
   if (!validKeys) throw Error.queryKeys;
 
+  Object.keys(query).forEach((key) => {
+    if(!query[key]) delete query[key];
+  });
+
   let questions = await Models.getByQuery(query, pagination);
 
   if (random) questions = questions.sort(() => Math.random() - 0.5);

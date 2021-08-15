@@ -9,15 +9,33 @@
 <body>
   <header>Questions</header>
   <main>
+    <a href="/admin">Voltar</a>
     <a href="/admin/questions/create"><button>Criar uma pergunta</button></a>
+    <form id="filters" action="/admin/questions/search" method="GET">
+      <label>
+        Perguntas por pagina:
+        <% console.log(query); %> 
+        <input type="number" name="perpage" value=<%= query.perpage || 10 %> />
+      </label>
+      <label>
+        Pagina
+        <input type="number" name="page" value=<%= query.page || 1 %> />
+      </label>
+      <div id="optionalFilters"></div>
+      <button type="submit">Filtrar</button>
+    </form>
+    <button id="filtersButton">Filtros</button>
     <% questions.forEach((question) => { %>
-      <p>Id: <%= question.id %></p>
-      <h4>Pergunta: <%= question.question %></h4>
-      <p>Tipo: <%= question.type %></p>
-      <p>Modulo: <%= question.module_data.module %></p>
-      <p>Bloco: <%= question.block %></p>
-      <a href=<%= `/admin/questions/${question.id}` %>><button>Ver pergunta</button></a>
+      <div>
+        <p>Id: <%= question.id %></p>
+        <h4>Pergunta: <%= question.question %></h4>
+        <p>Tipo: <%= question.type %></p>
+        <p>Modulo: <%= question.module_data.module %></p>
+        <p>Bloco: <%= question.block %></p>
+        <a href=<%= `/admin/questions/${question.id}` %>><button>Ver pergunta</button></a>
+      </div>
     <% }) %>
   </main>
+  <script src="/questions/index.js"></script>
 </body>
 </html>
