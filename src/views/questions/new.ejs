@@ -9,7 +9,10 @@
 <body>
   <header>Adicionar pergunta</header>
   <main>
-    <form action="/admin/questions" method="POST">
+    <% if(error) { %>    
+      <h3>Erro: <%= error.message %> </h3>
+    <% } %> 
+    <form action="/admin/questions/create" method="POST">
       <label>
         Pergunta: 
         <input type="text" name="question" />
@@ -55,6 +58,6 @@
       <button type="submit">Salvar</button>
     </form>
   </main>
-  <script src="/script.js"></script>
+  <script src="/questions/new.js"></script>
 </body>
 </html>

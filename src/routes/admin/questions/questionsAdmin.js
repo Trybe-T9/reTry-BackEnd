@@ -8,15 +8,29 @@ routes.get('/', async (_req, res, _next) => {
 });
 
 routes.get('/create', async (_req, res, _next) => {
-  res.status(200).render('questions/new');
+  res.status(200).render('questions/new', { error: null });
 });
 
-routes.post('/', async (req, res, next) => {
+routes.post('/create', async (req, res, _next) => {
   const question = req.body;
-  console.log(question);
-  const result = await questionsService.postQuestion(question);
+  try {
+    const result = await questionsService.postQuestion(question);
+    res.redirect(`${result.insertedQuestion.id}`);
+  } catch (error) {
+    res.status(400).render('questions/new', { error });
+  }
+});
+
+routes.post('/:id/update', async (req, res, _next) => {
+  console.log(req.body);
   res.end();
 });
+
+routes.get('/:id/update', async (req, res, _next) => {
+  const { id } = req.params;
+  const result = await questionsService.getQuestionById(id);
+  res.status(200).render('questions/update', { question: result.message, error: null });
+})
 
 routes.get('/:id', async (req, res, _next) => {
   const { id } = req.params;

@@ -49,7 +49,7 @@ const postQuestion = async (question) => {
   
   const insertedAnswers = await Models.postAnswers(answers);
 
-  console.log(insertedAnswers);
+  return { insertedQuestion, insertedAnswers };
 };
 
 module.exports = {
