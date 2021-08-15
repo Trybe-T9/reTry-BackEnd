@@ -37,7 +37,6 @@ const getIndexMetrics = async () => {
 };
 
 const postQuestion = async (question) => {
-  console.log(question);
   let answers = Utils.separateAnswers(question);
 
   //gambiarra até ter a tabela 'Users' completa :)
@@ -52,9 +51,27 @@ const postQuestion = async (question) => {
   return { insertedQuestion, insertedAnswers };
 };
 
+const putQuestion = async (question, id) => {
+  let answers = Utils.separateAnswers(question);
+
+  const updatedQuestion = await Models.putQuestion(question, id);
+  
+  const answersPromise = answers.map((answer) => Models.putAnswer(answer));
+
+  const resolvedAnswers = await Promise.all(answersPromise);
+
+  return { updatedQuestion, resolvedAnswers };
+};
+
+const deleteQuestion = (id) => {
+  return Models.deleteQuestion(id);
+};
+
 module.exports = {
   getQuestionById,
   getIndexMetrics,
+  deleteQuestion,
   postQuestion,
+  putQuestion,
   getQuery,
 };

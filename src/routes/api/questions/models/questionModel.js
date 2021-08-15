@@ -40,10 +40,31 @@ const postAnswers = (newAnswers) => {
   return answer.bulkCreate(newAnswers);
 };
 
+const putQuestion = (updatedQuestion, id) => {
+  return question.update(
+    updatedQuestion,
+    { where: { id } },
+  );
+};
+
+const putAnswer = (updatedAnswer) => {
+  return answer.update(
+    updatedAnswer,
+    { where: { id: updatedAnswer.id } },
+  );
+};
+
+const deleteQuestion = (id) => {
+  return question.destroy({ where: { id } });
+}
+
 module.exports = {
   getQuestionById,
   getIndexMetrics,
+  deleteQuestion,
   postQuestion,
   postAnswers,
+  putQuestion,
   getByQuery,
+  putAnswer,
 };

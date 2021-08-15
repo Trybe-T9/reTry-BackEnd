@@ -21,9 +21,30 @@ routes.post('/create', async (req, res, _next) => {
   }
 });
 
-routes.post('/:id/update', async (req, res, _next) => {
-  console.log(req.body);
+routes.get('/:id/delete', async (req, res, _next) => {
+  const { id } = req.params;
+
+  try {
+    await questionsService.deleteQuestion(id);
+    res.redirect('/admin/questions');
+  } catch (error) {
+    res.redirect(`${id}`);
+  }
+
   res.end();
+});
+
+routes.post('/:id/update', async (req, res, _next) => {
+  const { id } = req.params;
+  const question = req.body;
+  const pastQuestions = { ...question };
+  
+  try {
+    await questionsService.putQuestion(question, id);
+    res.redirect(`${id}`);
+  } catch (error) {
+    res.status(400).render(`questions/update`, { question: pastQuestions, error });
+  }
 });
 
 routes.get('/:id/update', async (req, res, _next) => {

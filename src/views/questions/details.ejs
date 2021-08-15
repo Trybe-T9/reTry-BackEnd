@@ -10,6 +10,8 @@
   <header>Questão</header>
   <main>
     <a href=<%= `/admin/questions/${question.id}/update` %>><button>Atualizar</button></a>
+    <a href=<%= `/admin/questions/${question.id}/delete` %>><button>Deletar</button></a>
+
     <p>Id: <%= question.id %></p>
     <h4>Pergunta: <%= question.question %></h4>
     <% if (question.image) { %>
