@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,15 +9,19 @@
 <body>
   <header>Adicionar pergunta</header>
   <main>
-    <form action="/api/v1/questions" method="POST">
+    <a href="/admin/questions">Voltar</a>
+    <% if(error) { %>    
+      <h3>Erro: <%= error.message %> </h3>
+    <% } %> 
+    <form action="/admin/questions/create" method="POST">
       <label>
         Pergunta: 
         <input type="text" name="question" />
       </label>
       <label>
         Tipo:
-        <select name="type">
-          <option value="mult-choice">Multipla escolha</option>
+        <select name="type" id="type">
+          <option value="multi-choice">Multipla escolha</option>
           <option value="boolean">Verdadeiro ou falso</option>
         </select>
       </label>
@@ -34,8 +38,8 @@
         <input type="text" name="theme" />
       </label>
       <label>
-        Url da imagem:
-        <input type="url" name="image" />
+        Imagem:
+        <input type="file" name="image" />
       </label>
       <label>
         Modulo:
@@ -46,8 +50,15 @@
           <option value="f3ec9930-d2e3-4423-88e8-a28c6aa0265a">Ciência da computação</option>
         </select>
       </label>
+      <label>
+        Bloco:
+        <input type="number" name="block" min="1" max="38" />
+      </label>
+      <fieldset id="answers">
+      </fieldset>
       <button type="submit">Salvar</button>
     </form>
   </main>
+  <script src="/questions/new.js"></script>
 </body>
 </html>

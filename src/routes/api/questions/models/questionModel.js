@@ -22,11 +22,49 @@ const getQuestionById = async (pk) => {
       { model: answer, as: 'answers' },
     ],
   });
-  
+
   return quest;
 };
 
+const getIndexMetrics = async () => {
+  const questions = await question.count();
+
+  return { questions };
+};
+
+const postQuestion = (newQuestion) => {
+  return question.create(newQuestion);
+};
+
+const postAnswers = (newAnswers) => {
+  return answer.bulkCreate(newAnswers);
+};
+
+const putQuestion = (updatedQuestion, id) => {
+  return question.update(
+    updatedQuestion,
+    { where: { id } },
+  );
+};
+
+const putAnswer = (updatedAnswer) => {
+  return answer.update(
+    updatedAnswer,
+    { where: { id: updatedAnswer.id } },
+  );
+};
+
+const deleteQuestion = (id) => {
+  return question.destroy({ where: { id } });
+}
+
 module.exports = {
-  getByQuery,
   getQuestionById,
+  getIndexMetrics,
+  deleteQuestion,
+  postQuestion,
+  postAnswers,
+  putQuestion,
+  getByQuery,
+  putAnswer,
 };
