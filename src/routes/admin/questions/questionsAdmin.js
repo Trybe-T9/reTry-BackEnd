@@ -1,6 +1,9 @@
+const multer = require('multer');
 const routes = require('express').Router();
 
+const multerConfig = require('../../../config/multer');
 const questionsService = require('../../api/questions/services/questionService');
+
 
 routes.get('/', async (_req, res, _next) => {
   const result = await questionsService.getQuery({});
@@ -19,10 +22,11 @@ routes.get('/create', async (_req, res, _next) => {
   res.status(200).render('questions/new', { error: null });
 });
 
-routes.post('/create', async (req, res, _next) => {
+routes.post('/create', multer(multerConfig).single('image'), async (req, res, _next) => {
+  const file = req.file;
   const question = req.body;
   try {
-    const result = await questionsService.postQuestion(question);
+    const result = await questionsService.postQuestion(question, file);
     res.redirect(`${result.insertedQuestion.id}`);
   } catch (error) {
     res.status(400).render('questions/new', { error });

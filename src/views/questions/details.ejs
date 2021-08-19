@@ -16,7 +16,7 @@
     <p>Id: <%= question.id %></p>
     <h4>Pergunta: <%= question.question %></h4>
     <% if (question.image) { %>
-      <img src=<%=question.image%> />
+      <img src=<%= `/api/v1/questions/image?link=${question.image}`%> width="300px"/>
     <% } %> 
     <p>Tipo: <%= question.type %></p>
     <p>Modulo: <%= question.module_data.module %></p>
