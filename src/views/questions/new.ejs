@@ -13,7 +13,7 @@
     <% if(error) { %>    
       <h3>Erro: <%= error.message %> </h3>
     <% } %> 
-    <form action="/admin/questions/create" method="POST">
+    <form action="/admin/questions/create" enctype="multipart/form-data" method="POST">
       <label>
         Pergunta: 
         <input type="text" name="question" />

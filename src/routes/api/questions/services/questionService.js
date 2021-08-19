@@ -2,6 +2,7 @@ const Validate = require('../utils/validateQuestion');
 const Error = require('../utils/questionsErrors');
 const Models = require('../models/questionModel');
 const Utils = require('../utils/questionsUtils');
+const { dbxUpload } = require('../../../../utils/dropbox');
 
 const getQuery = async (query) => {
   const pagination = Utils.paginate(query);
@@ -40,11 +41,13 @@ const getIndexMetrics = async () => {
   return metrics;
 };
 
-const postQuestion = async (question) => {
+const postQuestion = async (question, image) => {
   let answers = Utils.separateAnswers(question);
 
   //gambiarra até ter a tabela 'Users' completa :)
   question.userId = '911cac15-2492-400e-9d86-b4fca881de8e';
+
+  question.image = await dbxUpload(image);
 
   const insertedQuestion = await Models.postQuestion(question);
 
