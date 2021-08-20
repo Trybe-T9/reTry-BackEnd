@@ -922,6 +922,1110 @@ module.exports = {
       hint: 'Não é essa a reação do React, não. Hehehe. Quando declaramos mas não passamos um valor para a prop, o React interpreta que seu valor é "true". No link a seguir você confere mais informações sobre esta e outras formas de passar valores em props no React:',
       link: 'https://pt-br.reactjs.org/docs/jsx-in-depth.html#props-default-to-true',
       question_id: '41d007ac-c90a-4a2b-8d91-e77a195afdc2'
+    },
+    {
+      id: 'af0bdff4-9656-4d65-b244-9ed2424c1d03',
+      answer: 'Context API',
+      is_right: true,
+      hint: 'O context API não faz parte do Redux. O context API e o Redux são alternativas ao problema do prop drilling.',
+      link: 'https://app.betrybe.com/course/front-end/gerenciamento-de-estado-com-redux/introducao-ao-redux-o-estado-global-da-aplicacao/b316e3d4-5699-47b2-9f62-a221fc2041a8/conteudos/0638a8c1-f4c8-4da4-ade8-0946ced7d118?use_case=side_bar',
+      question_id: 'f1f16399-8c26-46cd-b5b9-e26bbb9a6aef'
+    },
+    {
+      id: '3048ab8f-c536-4653-b22b-a16e96a1650f',
+      answer: 'Action',
+      is_right: false,
+      hint: 'O context API não faz parte do Redux. O context API e o Redux são alternativas ao problema do prop drilling.',
+      link: 'https://app.betrybe.com/course/front-end/gerenciamento-de-estado-com-redux/introducao-ao-redux-o-estado-global-da-aplicacao/b316e3d4-5699-47b2-9f62-a221fc2041a8/conteudos/0638a8c1-f4c8-4da4-ade8-0946ced7d118?use_case=side_bar',
+      question_id: 'f1f16399-8c26-46cd-b5b9-e26bbb9a6aef'
+    },
+    {
+      id: '375e3622-bcae-4521-9e69-919959a75802',
+      answer: 'Reducer',
+      is_right: false,
+      hint: 'O context API não faz parte do Redux. O context API e o Redux são alternativas ao problema do prop drilling.',
+      link: 'https://app.betrybe.com/course/front-end/gerenciamento-de-estado-com-redux/introducao-ao-redux-o-estado-global-da-aplicacao/b316e3d4-5699-47b2-9f62-a221fc2041a8/conteudos/0638a8c1-f4c8-4da4-ade8-0946ced7d118?use_case=side_bar',
+      question_id: 'f1f16399-8c26-46cd-b5b9-e26bbb9a6aef'
+    },
+    {
+      id: 'eb9576f4-c130-4b03-9c2e-93d2afbeda6e',
+      answer: 'Store',
+      is_right: false,
+      hint: 'O context API não faz parte do Redux. O context API e o Redux são alternativas ao problema do prop drilling.',
+      link: 'https://app.betrybe.com/course/front-end/gerenciamento-de-estado-com-redux/introducao-ao-redux-o-estado-global-da-aplicacao/b316e3d4-5699-47b2-9f62-a221fc2041a8/conteudos/0638a8c1-f4c8-4da4-ade8-0946ced7d118?use_case=side_bar',
+      question_id: 'f1f16399-8c26-46cd-b5b9-e26bbb9a6aef'
+    },
+    {
+      id: '6cf527ec-ef16-4319-99c0-246d9cf08eed',
+      answer: 'Conectar o componente React ao Redux.',
+      is_right: true,
+      hint: 'A função connect tem por objetivo conectar o componente do React a store.',
+      link: 'https://app.betrybe.com/course/front-end/gerenciamento-de-estado-com-redux/usando-o-redux-no-react/a2dac445-434c-4690-83da-7ebef1aad2cd/conteudos/794e5f2e-0f5b-4492-8532-31db57afd23d/connect/878b6c9d-5ded-4b9f-b3ca-e34904ba6ae3?use_case=side_bar',
+      question_id: '42e999ab-e135-49b6-9d3a-33bd2255c19c'
+    },
+    {
+      id: '338df70e-29f7-4037-853f-5a7bb05e4a96',
+      answer: 'Conectar a Action ao Reducer',
+      is_right: false,
+      hint: 'A função connect tem por objetivo conectar o componente do React a store.',
+      link: 'https://app.betrybe.com/course/front-end/gerenciamento-de-estado-com-redux/usando-o-redux-no-react/a2dac445-434c-4690-83da-7ebef1aad2cd/conteudos/794e5f2e-0f5b-4492-8532-31db57afd23d/connect/878b6c9d-5ded-4b9f-b3ca-e34904ba6ae3?use_case=side_bar',
+      question_id: '42e999ab-e135-49b6-9d3a-33bd2255c19c'
+    },
+    {
+      id: '51058b2d-d658-4edb-b7f2-c39fb9afaab2',
+      answer: 'Conectar a Store ou HTML',
+      is_right: false,
+      hint: 'A função connect tem por objetivo conectar o componente do React a store.',
+      link: 'https://app.betrybe.com/course/front-end/gerenciamento-de-estado-com-redux/usando-o-redux-no-react/a2dac445-434c-4690-83da-7ebef1aad2cd/conteudos/794e5f2e-0f5b-4492-8532-31db57afd23d/connect/878b6c9d-5ded-4b9f-b3ca-e34904ba6ae3?use_case=side_bar',
+      question_id: '42e999ab-e135-49b6-9d3a-33bd2255c19c'
+    },
+    {
+      id: 'e15baf94-c891-48ba-b360-2edb723f29bc',
+      answer: 'Conectar o React ao CSS.',
+      is_right: false,
+      hint: 'A função connect tem por objetivo conectar o componente do React a store.',
+      link: 'https://app.betrybe.com/course/front-end/gerenciamento-de-estado-com-redux/usando-o-redux-no-react/a2dac445-434c-4690-83da-7ebef1aad2cd/conteudos/794e5f2e-0f5b-4492-8532-31db57afd23d/connect/878b6c9d-5ded-4b9f-b3ca-e34904ba6ae3?use_case=side_bar',
+      question_id: '42e999ab-e135-49b6-9d3a-33bd2255c19c'
+    },
+    {
+      id: 'b8d0cd56-6cbd-4d47-aaf1-139617d0c691',
+      answer: 'Um objeto Javascript',
+      is_right: true,
+      hint: 'Por definição a action é um objeto JavaScript que representa a alteração que deve ocorrer no state da aplicação.',
+      link: 'https://app.betrybe.com/course/front-end/gerenciamento-de-estado-com-redux/usando-o-redux-no-react/a2dac445-434c-4690-83da-7ebef1aad2cd/conteudos/794e5f2e-0f5b-4492-8532-31db57afd23d/relembrando-conceitos/5f3b2b05-b403-4afa-9bec-637cc7d6f783?use_case=side_bar',
+      question_id: '75ef1b3b-e417-46a9-98c1-b0fe0b484deb'
+    },
+    {
+      id: '31ab8306-b514-4575-8146-cba1d58f260d',
+      answer: 'Uma função do React',
+      is_right: false,
+      hint: 'Por definição a action é um objeto JavaScript que representa a alteração que deve ocorrer no state da aplicação.',
+      link: 'https://app.betrybe.com/course/front-end/gerenciamento-de-estado-com-redux/usando-o-redux-no-react/a2dac445-434c-4690-83da-7ebef1aad2cd/conteudos/794e5f2e-0f5b-4492-8532-31db57afd23d/relembrando-conceitos/5f3b2b05-b403-4afa-9bec-637cc7d6f783?use_case=side_bar',
+      question_id: '75ef1b3b-e417-46a9-98c1-b0fe0b484deb'
+    },
+    {
+      id: '06c39e84-6ec8-49de-8cc8-2fdc557a8146',
+      answer: 'Uma função do Javascript',
+      is_right: false,
+      hint: 'Por definição a action é um objeto JavaScript que representa a alteração que deve ocorrer no state da aplicação.',
+      link: 'https://app.betrybe.com/course/front-end/gerenciamento-de-estado-com-redux/usando-o-redux-no-react/a2dac445-434c-4690-83da-7ebef1aad2cd/conteudos/794e5f2e-0f5b-4492-8532-31db57afd23d/relembrando-conceitos/5f3b2b05-b403-4afa-9bec-637cc7d6f783?use_case=side_bar',
+      question_id: '75ef1b3b-e417-46a9-98c1-b0fe0b484deb'
+    },
+    {
+      id: 'f095a693-1ccc-4f02-a63b-9abb7e6cdc8e',
+      answer: 'Um objeto do React',
+      is_right: false,
+      hint: 'Por definição a action é um objeto JavaScript que representa a alteração que deve ocorrer no state da aplicação.',
+      link: 'https://app.betrybe.com/course/front-end/gerenciamento-de-estado-com-redux/usando-o-redux-no-react/a2dac445-434c-4690-83da-7ebef1aad2cd/conteudos/794e5f2e-0f5b-4492-8532-31db57afd23d/relembrando-conceitos/5f3b2b05-b403-4afa-9bec-637cc7d6f783?use_case=side_bar',
+      question_id: '75ef1b3b-e417-46a9-98c1-b0fe0b484deb'
+    },
+    {
+      id: '6f441554-83e4-4297-9597-bd37eec1dfcd',
+      answer: 'npm install --save redux react-redux',
+      is_right: true,
+      hint: 'A resposta correta é a npm install --save redux react-redux. Outra forma de dar o mesmo comando seria npm i --save redux react-redux.',
+      link: 'https://app.betrybe.com/course/front-end/gerenciamento-de-estado-com-redux/usando-o-redux-no-react/a2dac445-434c-4690-83da-7ebef1aad2cd/conteudos/794e5f2e-0f5b-4492-8532-31db57afd23d/relembrando-conceitos/5f3b2b05-b403-4afa-9bec-637cc7d6f783?use_case=side_bar',
+      question_id: '8a6a532b-1364-4690-adae-c344de7e2d44'
+    },
+    {
+      id: 'f6132e27-7171-4422-a1d5-bc2b4c2a00ff',
+      answer: 'npx install --save redux react-redux',
+      is_right: false,
+      hint: 'A resposta correta é a npm install --save redux react-redux. Outra forma de dar o mesmo comando seria npm i --save redux react-redux.',
+      link: 'https://app.betrybe.com/course/front-end/gerenciamento-de-estado-com-redux/usando-o-redux-no-react/a2dac445-434c-4690-83da-7ebef1aad2cd/conteudos/794e5f2e-0f5b-4492-8532-31db57afd23d/relembrando-conceitos/5f3b2b05-b403-4afa-9bec-637cc7d6f783?use_case=side_bar',
+      question_id: '8a6a532b-1364-4690-adae-c344de7e2d44'
+    },
+    {
+      id: 'c84e4fd9-f914-42d9-8ba3-2e525e26a0b1',
+      answer: 'npm install --save redux reacty-redux',
+      is_right: false,
+      hint: 'A resposta correta é a npm install --save redux react-redux. Outra forma de dar o mesmo comando seria npm i --save redux react-redux.',
+      link: 'https://app.betrybe.com/course/front-end/gerenciamento-de-estado-com-redux/usando-o-redux-no-react/a2dac445-434c-4690-83da-7ebef1aad2cd/conteudos/794e5f2e-0f5b-4492-8532-31db57afd23d/relembrando-conceitos/5f3b2b05-b403-4afa-9bec-637cc7d6f783?use_case=side_bar',
+      question_id: '8a6a532b-1364-4690-adae-c344de7e2d44'
+    },
+    {
+      id: '31d4318c-b9c6-423a-99ac-c7f9df44efd5',
+      answer: 'npm install --save redux react_redux',
+      is_right: false,
+      hint: 'A resposta correta é a npm install --save redux react-redux. Outra forma de dar o mesmo comando seria npm i --save redux react-redux.',
+      link: 'https://app.betrybe.com/course/front-end/gerenciamento-de-estado-com-redux/usando-o-redux-no-react/a2dac445-434c-4690-83da-7ebef1aad2cd/conteudos/794e5f2e-0f5b-4492-8532-31db57afd23d/relembrando-conceitos/5f3b2b05-b403-4afa-9bec-637cc7d6f783?use_case=side_bar',
+      question_id: '8a6a532b-1364-4690-adae-c344de7e2d44'
+    },
+    {
+      id: '21f80266-2be3-4701-b9df-0440d6d9bb88',
+      answer: 'Uma action',
+      is_right: true,
+      hint: 'O Reducer deve receber uma Action que nada mais é do que um objeto contendo as alterações a serem feitas no estado.',
+      link: 'https://app.betrybe.com/course/front-end/gerenciamento-de-estado-com-redux/usando-o-redux-no-react/a2dac445-434c-4690-83da-7ebef1aad2cd/conteudos/794e5f2e-0f5b-4492-8532-31db57afd23d/fluxo-de-dados-no-redux/ff277222-a514-46cd-9a4f-1021018ce183?use_case=side_bar',
+      question_id: '514ffc4f-58ed-473b-8d2c-637a5efa8c21'
+    },
+    {
+      id: 'c341354c-0711-4a81-a501-db6d0bd73a3e',
+      answer: 'Um componente',
+      is_right: false,
+      hint: 'O Reducer deve receber uma Action que nada mais é do que um objeto contendo as alterações a serem feitas no estado.',
+      link: 'https://app.betrybe.com/course/front-end/gerenciamento-de-estado-com-redux/usando-o-redux-no-react/a2dac445-434c-4690-83da-7ebef1aad2cd/conteudos/794e5f2e-0f5b-4492-8532-31db57afd23d/fluxo-de-dados-no-redux/ff277222-a514-46cd-9a4f-1021018ce183?use_case=side_bar',
+      question_id: '514ffc4f-58ed-473b-8d2c-637a5efa8c21'
+    },
+    {
+      id: 'c6cf199c-8b17-46d4-9d95-4ecbd2f1c68b',
+      answer: 'Um Provider',
+      is_right: false,
+      hint: 'O Reducer deve receber uma Action que nada mais é do que um objeto contendo as alterações a serem feitas no estado.',
+      link: 'https://app.betrybe.com/course/front-end/gerenciamento-de-estado-com-redux/usando-o-redux-no-react/a2dac445-434c-4690-83da-7ebef1aad2cd/conteudos/794e5f2e-0f5b-4492-8532-31db57afd23d/fluxo-de-dados-no-redux/ff277222-a514-46cd-9a4f-1021018ce183?use_case=side_bar',
+      question_id: '514ffc4f-58ed-473b-8d2c-637a5efa8c21'
+    },
+    {
+      id: '55b94ab1-54c3-4518-90bd-d87b9a7f9cb2',
+      answer: 'Um Redux',
+      is_right: false,
+      hint: 'O Reducer deve receber uma Action que nada mais é do que um objeto contendo as alterações a serem feitas no estado.',
+      link: 'https://app.betrybe.com/course/front-end/gerenciamento-de-estado-com-redux/usando-o-redux-no-react/a2dac445-434c-4690-83da-7ebef1aad2cd/conteudos/794e5f2e-0f5b-4492-8532-31db57afd23d/fluxo-de-dados-no-redux/ff277222-a514-46cd-9a4f-1021018ce183?use_case=side_bar',
+      question_id: '514ffc4f-58ed-473b-8d2c-637a5efa8c21'
+    },
+    {
+      id: 'fa22c2b7-88df-4f57-8339-639d0fd7e6c9',
+      answer: 'Uma função que envia uma action para processamento',
+      is_right: true,
+      hint: 'O Dispatch deve “despachar” a action para o Reducer realizar a alteração no estado do Redux',
+      link: 'https://app.betrybe.com/course/front-end/gerenciamento-de-estado-com-redux/usando-o-redux-no-react/a2dac445-434c-4690-83da-7ebef1aad2cd/conteudos/794e5f2e-0f5b-4492-8532-31db57afd23d/relembrando-conceitos/5f3b2b05-b403-4afa-9bec-637cc7d6f783?use_case=side_bar',
+      question_id: '609fee13-8187-4458-8fb4-0465c7cda8dc'
+    },
+    {
+      id: '542d2d2a-f3f5-415a-a24e-7fe2159eeb90',
+      answer: 'Uma biblioteca do Redux',
+      is_right: false,
+      hint: 'O Dispatch deve “despachar” a action para o Reducer realizar a alteração no estado do Redux',
+      link: 'https://app.betrybe.com/course/front-end/gerenciamento-de-estado-com-redux/usando-o-redux-no-react/a2dac445-434c-4690-83da-7ebef1aad2cd/conteudos/794e5f2e-0f5b-4492-8532-31db57afd23d/relembrando-conceitos/5f3b2b05-b403-4afa-9bec-637cc7d6f783?use_case=side_bar',
+      question_id: '609fee13-8187-4458-8fb4-0465c7cda8dc'
+    },
+    {
+      id: 'bef33d98-23e6-4efb-9612-f5bf0766a723',
+      answer: 'Uma função do React',
+      is_right: false,
+      hint: 'O Dispatch deve “despachar” a action para o Reducer realizar a alteração no estado do Redux',
+      link: 'https://app.betrybe.com/course/front-end/gerenciamento-de-estado-com-redux/usando-o-redux-no-react/a2dac445-434c-4690-83da-7ebef1aad2cd/conteudos/794e5f2e-0f5b-4492-8532-31db57afd23d/relembrando-conceitos/5f3b2b05-b403-4afa-9bec-637cc7d6f783?use_case=side_bar',
+      question_id: '609fee13-8187-4458-8fb4-0465c7cda8dc'
+    },
+    {
+      id: '71897699-1539-4912-a6d3-66b8e6998ec4',
+      answer: 'Um objeto do React',
+      is_right: false,
+      hint: 'O Dispatch deve “despachar” a action para o Reducer realizar a alteração no estado do Redux',
+      link: 'https://app.betrybe.com/course/front-end/gerenciamento-de-estado-com-redux/usando-o-redux-no-react/a2dac445-434c-4690-83da-7ebef1aad2cd/conteudos/794e5f2e-0f5b-4492-8532-31db57afd23d/relembrando-conceitos/5f3b2b05-b403-4afa-9bec-637cc7d6f783?use_case=side_bar',
+      question_id: '609fee13-8187-4458-8fb4-0465c7cda8dc'
+    },
+    {
+      id: 'ce280754-8d31-4296-aeca-52ad2a025369',
+      answer: 'Respectivamente os métodos “mapStateToProps” e “mapDispatchToProps”',
+      is_right: true,
+      hint: 'No primeiro parênteses, devem estar presentes o mapStateToProps e o mapDispatchToProps que são métodos nativos do Redux .',
+      link: 'https://app.betrybe.com/course/front-end/gerenciamento-de-estado-com-redux/usando-o-redux-no-react/a2dac445-434c-4690-83da-7ebef1aad2cd/conteudos/794e5f2e-0f5b-4492-8532-31db57afd23d/connect/878b6c9d-5ded-4b9f-b3ca-e34904ba6ae3?use_case=side_bar',
+      question_id: '7f60d958-9f17-4107-aec9-79c1fffe6963'
+    },
+    {
+      id: '276c6cd4-cad7-459f-b899-2aab0d92f93e',
+      answer: 'Respectivamente os métodos “mapDispatchToProps” e “mapStateToProps”',
+      is_right: false,
+      hint: 'No primeiro parênteses, devem estar presentes o mapStateToProps e o mapDispatchToProps que são métodos nativos do Redux .',
+      link: 'https://app.betrybe.com/course/front-end/gerenciamento-de-estado-com-redux/usando-o-redux-no-react/a2dac445-434c-4690-83da-7ebef1aad2cd/conteudos/794e5f2e-0f5b-4492-8532-31db57afd23d/connect/878b6c9d-5ded-4b9f-b3ca-e34904ba6ae3?use_case=side_bar',
+      question_id: '7f60d958-9f17-4107-aec9-79c1fffe6963'
+    },
+    {
+      id: '1395bc0b-954f-4d4f-8700-17fb09eab455',
+      answer: 'Respectivamente o componente e o “mapDispatchToProps”',
+      is_right: false,
+      hint: 'No primeiro parênteses, devem estar presentes o mapStateToProps e o mapDispatchToProps que são métodos nativos do Redux .',
+      link: 'https://app.betrybe.com/course/front-end/gerenciamento-de-estado-com-redux/usando-o-redux-no-react/a2dac445-434c-4690-83da-7ebef1aad2cd/conteudos/794e5f2e-0f5b-4492-8532-31db57afd23d/connect/878b6c9d-5ded-4b9f-b3ca-e34904ba6ae3?use_case=side_bar',
+      question_id: '7f60d958-9f17-4107-aec9-79c1fffe6963'
+    },
+    {
+      id: 'c4f5cd86-5509-4842-a76c-968b8c561db2',
+      answer: 'Respectivamente o componente e o “mapStateToProps”',
+      is_right: false,
+      hint: 'No primeiro parênteses, devem estar presentes o mapStateToProps e o mapDispatchToProps que são métodos nativos do Redux .',
+      link: 'https://app.betrybe.com/course/front-end/gerenciamento-de-estado-com-redux/usando-o-redux-no-react/a2dac445-434c-4690-83da-7ebef1aad2cd/conteudos/794e5f2e-0f5b-4492-8532-31db57afd23d/connect/878b6c9d-5ded-4b9f-b3ca-e34904ba6ae3?use_case=side_bar',
+      question_id: '7f60d958-9f17-4107-aec9-79c1fffe6963'
+    },
+    {
+      id: 'e2bbd01d-f301-4273-b172-64aaa9aa26e7',
+      answer: 'É um pacote do React utilizado para trabalhar com funções assíncronas no Redux',
+      is_right: true,
+      hint: 'É solução padrão recomendada na documentação do Redux para se ter actions assíncronas e é instalada via uso do pacote redux-thunk.',
+      link: 'https://app.betrybe.com/course/front-end/gerenciamento-de-estado-com-redux/usando-o-redux-no-react-actions-assincronas/5e038872-db20-44f5-b6d5-ab36b654fff6/conteudos/e4ea24ec-8de1-42ab-a593-17a4e989fafd/redux-thunk/3acb1da6-774f-4659-8066-ffe0ece8335b?use_case=side_bar',
+      question_id: 'b2df82a9-26fa-4b6d-a0a4-e9b74cbf1b54'
+    },
+    {
+      id: '910da190-955c-47f3-8218-e39a48b121d0',
+      answer: 'É uma função do React que utilizamos no Redux para trabalhar com funções assíncronas.',
+      is_right: false,
+      hint: 'É solução padrão recomendada na documentação do Redux para se ter actions assíncronas e é instalada via uso do pacote redux-thunk.',
+      link: 'https://app.betrybe.com/course/front-end/gerenciamento-de-estado-com-redux/usando-o-redux-no-react-actions-assincronas/5e038872-db20-44f5-b6d5-ab36b654fff6/conteudos/e4ea24ec-8de1-42ab-a593-17a4e989fafd/redux-thunk/3acb1da6-774f-4659-8066-ffe0ece8335b?use_case=side_bar',
+      question_id: 'b2df82a9-26fa-4b6d-a0a4-e9b74cbf1b54'
+    },
+    {
+      id: '8941c61c-4ae6-4c97-b8d3-e0dad56611d4',
+      answer: 'É um item da Store que atualiza o componente React.',
+      is_right: false,
+      hint: 'É solução padrão recomendada na documentação do Redux para se ter actions assíncronas e é instalada via uso do pacote redux-thunk.',
+      link: 'https://app.betrybe.com/course/front-end/gerenciamento-de-estado-com-redux/usando-o-redux-no-react-actions-assincronas/5e038872-db20-44f5-b6d5-ab36b654fff6/conteudos/e4ea24ec-8de1-42ab-a593-17a4e989fafd/redux-thunk/3acb1da6-774f-4659-8066-ffe0ece8335b?use_case=side_bar',
+      question_id: 'b2df82a9-26fa-4b6d-a0a4-e9b74cbf1b54'
+    },
+    {
+      id: '9d4e9f22-4665-4dcd-bff1-fc1506f68ded',
+      answer: 'É um método para renderizar o HTML e o JavaScript dentro do React.',
+      is_right: false,
+      hint: 'É solução padrão recomendada na documentação do Redux para se ter actions assíncronas e é instalada via uso do pacote redux-thunk.',
+      link: 'https://app.betrybe.com/course/front-end/gerenciamento-de-estado-com-redux/usando-o-redux-no-react-actions-assincronas/5e038872-db20-44f5-b6d5-ab36b654fff6/conteudos/e4ea24ec-8de1-42ab-a593-17a4e989fafd/redux-thunk/3acb1da6-774f-4659-8066-ffe0ece8335b?use_case=side_bar',
+      question_id: 'b2df82a9-26fa-4b6d-a0a4-e9b74cbf1b54'
+    },
+    {
+      id: 'a712ad9e-c30f-4194-8b19-272e30fa2df7',
+      answer: 'Action',
+      is_right: true,
+      hint: 'As actions precisam ser objetos puros, ou seja, não podem ser funções. Para isso, precisaríamos do redux-thunk',
+      link: 'https://app.betrybe.com/course/front-end/gerenciamento-de-estado-com-redux/usando-o-redux-no-react-actions-assincronas/5e038872-db20-44f5-b6d5-ab36b654fff6/conteudos/e4ea24ec-8de1-42ab-a593-17a4e989fafd/exemplos-guiados/39a19519-23e7-41ea-817e-4f9a97a649df?use_case=side_bar',
+      question_id: '59d33945-5e40-40cf-bebf-5c898741ac49'
+    },
+    {
+      id: 'cc56d689-8a0f-4e61-ae39-f4c83fc2be78',
+      answer: 'Reducer',
+      is_right: false,
+      hint: 'As actions precisam ser objetos puros, ou seja, não podem ser funções. Para isso, precisaríamos do redux-thunk',
+      link: 'https://app.betrybe.com/course/front-end/gerenciamento-de-estado-com-redux/usando-o-redux-no-react-actions-assincronas/5e038872-db20-44f5-b6d5-ab36b654fff6/conteudos/e4ea24ec-8de1-42ab-a593-17a4e989fafd/exemplos-guiados/39a19519-23e7-41ea-817e-4f9a97a649df?use_case=side_bar',
+      question_id: '59d33945-5e40-40cf-bebf-5c898741ac49'
+    },
+    {
+      id: '11eece69-000d-48b9-ad55-d3d5b347dead',
+      answer: 'Redux',
+      is_right: false,
+      hint: 'As actions precisam ser objetos puros, ou seja, não podem ser funções. Para isso, precisaríamos do redux-thunk',
+      link: 'https://app.betrybe.com/course/front-end/gerenciamento-de-estado-com-redux/usando-o-redux-no-react-actions-assincronas/5e038872-db20-44f5-b6d5-ab36b654fff6/conteudos/e4ea24ec-8de1-42ab-a593-17a4e989fafd/exemplos-guiados/39a19519-23e7-41ea-817e-4f9a97a649df?use_case=side_bar',
+      question_id: '59d33945-5e40-40cf-bebf-5c898741ac49'
+    },
+    {
+      id: '3161df92-28f9-4caf-96f6-b1d87ef2f0d9',
+      answer: 'Root Reducer',
+      is_right: false,
+      hint: 'As actions precisam ser objetos puros, ou seja, não podem ser funções. Para isso, precisaríamos do redux-thunk',
+      link: 'https://app.betrybe.com/course/front-end/gerenciamento-de-estado-com-redux/usando-o-redux-no-react-actions-assincronas/5e038872-db20-44f5-b6d5-ab36b654fff6/conteudos/e4ea24ec-8de1-42ab-a593-17a4e989fafd/exemplos-guiados/39a19519-23e7-41ea-817e-4f9a97a649df?use_case=side_bar',
+      question_id: '59d33945-5e40-40cf-bebf-5c898741ac49'
+    },
+    {
+      id: 'd9365b7e-ef57-4d4a-9a5e-76da9467d65f',
+      answer: 'Um estado global para a aplicação',
+      is_right: true,
+      hint: 'O Redux existe para auxiliar o fluxo de dados dentro da sua aplicação! Com ele você consegue ter, além do estado local de cada componente, um estado global , acessível a todos os componentes , onde se pode armazenar e recuperar informações que precisam ser compartilhadas.',
+      link: 'https://app.betrybe.com/course/front-end/gerenciamento-de-estado-com-redux/introducao-ao-redux-o-estado-global-da-aplicacao/b316e3d4-5699-47b2-9f62-a221fc2041a8/conteudos/0638a8c1-f4c8-4da4-ade8-0946ced7d118?use_case=side_bar',
+      question_id: '24491eff-f24f-4da6-bcf1-925f204fd6f0'
+    },
+    {
+      id: '74a5b229-c0f3-488c-9d88-b1103ad9b267',
+      answer: 'Um componente do React',
+      is_right: false,
+      hint: 'O Redux existe para auxiliar o fluxo de dados dentro da sua aplicação! Com ele você consegue ter, além do estado local de cada componente, um estado global , acessível a todos os componentes , onde se pode armazenar e recuperar informações que precisam ser compartilhadas.',
+      link: 'https://app.betrybe.com/course/front-end/gerenciamento-de-estado-com-redux/introducao-ao-redux-o-estado-global-da-aplicacao/b316e3d4-5699-47b2-9f62-a221fc2041a8/conteudos/0638a8c1-f4c8-4da4-ade8-0946ced7d118?use_case=side_bar',
+      question_id: '24491eff-f24f-4da6-bcf1-925f204fd6f0'
+    },
+    {
+      id: 'd5d91af4-a81c-4614-9189-97785afd980e',
+      answer: 'Uma biblioteca',
+      is_right: false,
+      hint: 'O Redux existe para auxiliar o fluxo de dados dentro da sua aplicação! Com ele você consegue ter, além do estado local de cada componente, um estado global , acessível a todos os componentes , onde se pode armazenar e recuperar informações que precisam ser compartilhadas.',
+      link: 'https://app.betrybe.com/course/front-end/gerenciamento-de-estado-com-redux/introducao-ao-redux-o-estado-global-da-aplicacao/b316e3d4-5699-47b2-9f62-a221fc2041a8/conteudos/0638a8c1-f4c8-4da4-ade8-0946ced7d118?use_case=side_bar',
+      question_id: '24491eff-f24f-4da6-bcf1-925f204fd6f0'
+    },
+    {
+      id: '2d7d0e18-2b53-48e2-910c-4b00cb748e07',
+      answer: 'Um objeto do React',
+      is_right: false,
+      hint: 'O Redux existe para auxiliar o fluxo de dados dentro da sua aplicação! Com ele você consegue ter, além do estado local de cada componente, um estado global , acessível a todos os componentes , onde se pode armazenar e recuperar informações que precisam ser compartilhadas.',
+      link: 'https://app.betrybe.com/course/front-end/gerenciamento-de-estado-com-redux/introducao-ao-redux-o-estado-global-da-aplicacao/b316e3d4-5699-47b2-9f62-a221fc2041a8/conteudos/0638a8c1-f4c8-4da4-ade8-0946ced7d118?use_case=side_bar',
+      question_id: '24491eff-f24f-4da6-bcf1-925f204fd6f0'
+    },
+    {
+      id: '6e3b820f-3862-4c65-8bd1-b091f203abe8',
+      answer: 'Constructor, render e componentDidMount',
+      is_right: true,
+      hint: 'O Constructor é responsável por realizar a inicialização do componente recebendo as props e os estados, logo em seguida o render o renderiza e o insere no DOM, além de criar os componentes filhos e por último temos o componentDidMount que dispara as ações após o componente ser inserido no DOM.',
+      link: 'https://app.betrybe.com/course/front-end/ciclo-de-vida-de-componentes-e-react-router/ciclo-de-vida-de-componentes/36f2a45f-a7c0-4f6f-ae29-119286c4dce9/conteudos/cfe4958f-d7f7-412f-bc93-91ab9ff37eac/o-ciclo-de-vida-de-um-componente-react/b7a46cbb-a1e3-4192-84a2-4d9d0e387cf2?use_case=side_bar',
+      question_id: 'bd28c0d1-81f8-4dbe-a53a-fdb9646d3644'
+    },
+    {
+      id: 'bf567048-c15e-4b95-82cd-4a8550665bbd',
+      answer: 'Constructor, componentDidMount e render',
+      is_right: false,
+      hint: 'O Constructor é responsável por realizar a inicialização do componente recebendo as props e os estados, logo em seguida o render o renderiza e o insere no DOM, além de criar os componentes filhos e por último temos o componentDidMount que dispara as ações após o componente ser inserido no DOM.',
+      link: 'https://app.betrybe.com/course/front-end/ciclo-de-vida-de-componentes-e-react-router/ciclo-de-vida-de-componentes/36f2a45f-a7c0-4f6f-ae29-119286c4dce9/conteudos/cfe4958f-d7f7-412f-bc93-91ab9ff37eac/o-ciclo-de-vida-de-um-componente-react/b7a46cbb-a1e3-4192-84a2-4d9d0e387cf2?use_case=side_bar',
+      question_id: 'bd28c0d1-81f8-4dbe-a53a-fdb9646d3644'
+    },
+    {
+      id: '34c26e00-aad5-4d19-8068-5a354bcc8891',
+      answer: 'Render, Constructor e componentDidMount',
+      is_right: false,
+      hint: 'O Constructor é responsável por realizar a inicialização do componente recebendo as props e os estados, logo em seguida o render o renderiza e o insere no DOM, além de criar os componentes filhos e por último temos o componentDidMount que dispara as ações após o componente ser inserido no DOM.',
+      link: 'https://app.betrybe.com/course/front-end/ciclo-de-vida-de-componentes-e-react-router/ciclo-de-vida-de-componentes/36f2a45f-a7c0-4f6f-ae29-119286c4dce9/conteudos/cfe4958f-d7f7-412f-bc93-91ab9ff37eac/o-ciclo-de-vida-de-um-componente-react/b7a46cbb-a1e3-4192-84a2-4d9d0e387cf2?use_case=side_bar',
+      question_id: 'bd28c0d1-81f8-4dbe-a53a-fdb9646d3644'
+    },
+    {
+      id: '5abe8b36-48b9-41f3-bc99-1ce028162f67',
+      answer: 'componentDidMount, Render e Constructor',
+      is_right: false,
+      hint: 'O Constructor é responsável por realizar a inicialização do componente recebendo as props e os estados, logo em seguida o render o renderiza e o insere no DOM, além de criar os componentes filhos e por último temos o componentDidMount que dispara as ações após o componente ser inserido no DOM.',
+      link: 'https://app.betrybe.com/course/front-end/ciclo-de-vida-de-componentes-e-react-router/ciclo-de-vida-de-componentes/36f2a45f-a7c0-4f6f-ae29-119286c4dce9/conteudos/cfe4958f-d7f7-412f-bc93-91ab9ff37eac/o-ciclo-de-vida-de-um-componente-react/b7a46cbb-a1e3-4192-84a2-4d9d0e387cf2?use_case=side_bar',
+      question_id: 'bd28c0d1-81f8-4dbe-a53a-fdb9646d3644'
+    },
+    {
+      id: '922be30a-4056-433f-a082-e6ae56196cb9',
+      answer: 'componentDidMount, componentDidupdate e componentWillUnmount',
+      is_right: true,
+      hint: 'As 3 funções são: componentDidMount, componentDidupdate e componentWillUnmount. Elas são responsáveis por montar, atualizar e desmontar os componentes em React.',
+      link: 'https://app.betrybe.com/course/front-end/ciclo-de-vida-de-componentes-e-react-router/ciclo-de-vida-de-componentes/36f2a45f-a7c0-4f6f-ae29-119286c4dce9/conteudos/cfe4958f-d7f7-412f-bc93-91ab9ff37eac/o-ciclo-de-vida-de-um-componente-react/b7a46cbb-a1e3-4192-84a2-4d9d0e387cf2?use_case=side_bar',
+      question_id: '15334923-9b9e-4940-82c0-71c9aff8c7f9'
+    },
+    {
+      id: 'ea6ed360-b7c4-4cb5-81ba-f7f573654b84',
+      answer: 'componentDidMount, render e componentWillUnmount',
+      is_right: false,
+      hint: 'As 3 funções são: componentDidMount, componentDidupdate e componentWillUnmount. Elas são responsáveis por montar, atualizar e desmontar os componentes em React.',
+      link: 'https://app.betrybe.com/course/front-end/ciclo-de-vida-de-componentes-e-react-router/ciclo-de-vida-de-componentes/36f2a45f-a7c0-4f6f-ae29-119286c4dce9/conteudos/cfe4958f-d7f7-412f-bc93-91ab9ff37eac/o-ciclo-de-vida-de-um-componente-react/b7a46cbb-a1e3-4192-84a2-4d9d0e387cf2?use_case=side_bar',
+      question_id: '15334923-9b9e-4940-82c0-71c9aff8c7f9'
+    },
+    {
+      id: '8da33655-e87c-4beb-8bac-c2f461792bc5',
+      answer: 'componentDidMount, componentDidupdate e return',
+      is_right: false,
+      hint: 'As 3 funções são: componentDidMount, componentDidupdate e componentWillUnmount. Elas são responsáveis por montar, atualizar e desmontar os componentes em React.',
+      link: 'https://app.betrybe.com/course/front-end/ciclo-de-vida-de-componentes-e-react-router/ciclo-de-vida-de-componentes/36f2a45f-a7c0-4f6f-ae29-119286c4dce9/conteudos/cfe4958f-d7f7-412f-bc93-91ab9ff37eac/o-ciclo-de-vida-de-um-componente-react/b7a46cbb-a1e3-4192-84a2-4d9d0e387cf2?use_case=side_bar',
+      question_id: '15334923-9b9e-4940-82c0-71c9aff8c7f9'
+    },
+    {
+      id: '8f0387e1-173d-4f6e-907c-96daf3f0de96',
+      answer: 'componentDidMount, contructor e componentWillUnmount',
+      is_right: false,
+      hint: 'As 3 funções são: componentDidMount, componentDidupdate e componentWillUnmount. Elas são responsáveis por montar, atualizar e desmontar os componentes em React.',
+      link: 'https://app.betrybe.com/course/front-end/ciclo-de-vida-de-componentes-e-react-router/ciclo-de-vida-de-componentes/36f2a45f-a7c0-4f6f-ae29-119286c4dce9/conteudos/cfe4958f-d7f7-412f-bc93-91ab9ff37eac/o-ciclo-de-vida-de-um-componente-react/b7a46cbb-a1e3-4192-84a2-4d9d0e387cf2?use_case=side_bar',
+      question_id: '15334923-9b9e-4940-82c0-71c9aff8c7f9'
+    },
+    {
+      id: '4c1a1a7f-c2b7-4ffe-8846-33dc51ff3f2c',
+      answer: 'npm install react-router-dom',
+      is_right: true,
+      hint: 'Apesar de haver variações na forma de se instalar o React Router Dom, a única alternativa válida é a “npm install react-router-dom”',
+      link: 'https://app.betrybe.com/course/front-end/ciclo-de-vida-de-componentes-e-react-router/react-router/22d8da78-d744-421e-b669-d72ff189e506/conteudos/3bc63bd1-e611-45f8-b73f-b4f5fc98312a/instalacao-react-router-dom/64c5729d-72dd-4dda-bd24-22042bd30b69?use_case=side_bar',
+      question_id: 'a4b1b39b-172d-4322-a4d3-40cdfc64793f'
+    },
+    {
+      id: 'c03b0193-2a87-4333-8edc-48b7588af521',
+      answer: 'Nenhum, o React Router Dom é nativo do React',
+      is_right: false,
+      hint: 'Apesar de haver variações na forma de se instalar o React Router Dom, a única alternativa válida é a “npm install react-router-dom”',
+      link: 'https://app.betrybe.com/course/front-end/ciclo-de-vida-de-componentes-e-react-router/react-router/22d8da78-d744-421e-b669-d72ff189e506/conteudos/3bc63bd1-e611-45f8-b73f-b4f5fc98312a/instalacao-react-router-dom/64c5729d-72dd-4dda-bd24-22042bd30b69?use_case=side_bar',
+      question_id: 'a4b1b39b-172d-4322-a4d3-40cdfc64793f'
+    },
+    {
+      id: 'f2b2355a-b8ad-4fb6-b2ae-22c636fbfc83',
+      answer: 'npm i react-router',
+      is_right: false,
+      hint: 'Apesar de haver variações na forma de se instalar o React Router Dom, a única alternativa válida é a “npm install react-router-dom”',
+      link: 'https://app.betrybe.com/course/front-end/ciclo-de-vida-de-componentes-e-react-router/react-router/22d8da78-d744-421e-b669-d72ff189e506/conteudos/3bc63bd1-e611-45f8-b73f-b4f5fc98312a/instalacao-react-router-dom/64c5729d-72dd-4dda-bd24-22042bd30b69?use_case=side_bar',
+      question_id: 'a4b1b39b-172d-4322-a4d3-40cdfc64793f'
+    },
+    {
+      id: '6d9d5df2-e215-4378-a785-1e1b88e7f2a1',
+      answer: 'npm install react-dom',
+      is_right: false,
+      hint: 'Apesar de haver variações na forma de se instalar o React Router Dom, a única alternativa válida é a “npm install react-router-dom”',
+      link: 'https://app.betrybe.com/course/front-end/ciclo-de-vida-de-componentes-e-react-router/react-router/22d8da78-d744-421e-b669-d72ff189e506/conteudos/3bc63bd1-e611-45f8-b73f-b4f5fc98312a/instalacao-react-router-dom/64c5729d-72dd-4dda-bd24-22042bd30b69?use_case=side_bar',
+      question_id: 'a4b1b39b-172d-4322-a4d3-40cdfc64793f'
+    },
+    {
+      id: '3c27e3d3-d3e4-48ec-afb6-a72d5526cddd',
+      answer: 'Encapsula a aplicação de forma que possibilita a fazer uso da navegação',
+      is_right: true,
+      hint: 'Ele é responsável por encapsular a aplicação e permitir que sejam criadas as rotas (route) para que a aplicação seja navegável.',
+      link: 'https://app.betrybe.com/course/front-end/ciclo-de-vida-de-componentes-e-react-router/react-router/22d8da78-d744-421e-b669-d72ff189e506/conteudos/3bc63bd1-e611-45f8-b73f-b4f5fc98312a/componentes-browserrouter-e-route/ef565812-71f0-40cd-b65c-d965d94854df?use_case=side_bar',
+      question_id: 'd0320b10-531a-4a9d-bc5d-605be7126b8e'
+    },
+    {
+      id: '42996163-1386-47da-a580-980a37a6df89',
+      answer: 'Encapsula o componente e permite que o App redirecione pra ele',
+      is_right: false,
+      hint: 'Ele é responsável por encapsular a aplicação e permitir que sejam criadas as rotas (route) para que a aplicação seja navegável.',
+      link: 'https://app.betrybe.com/course/front-end/ciclo-de-vida-de-componentes-e-react-router/react-router/22d8da78-d744-421e-b669-d72ff189e506/conteudos/3bc63bd1-e611-45f8-b73f-b4f5fc98312a/componentes-browserrouter-e-route/ef565812-71f0-40cd-b65c-d965d94854df?use_case=side_bar',
+      question_id: 'd0320b10-531a-4a9d-bc5d-605be7126b8e'
+    },
+    {
+      id: 'bd2d241e-73e0-4492-8e0c-c53647948571',
+      answer: 'Direciona o usuário da página atual para outra.',
+      is_right: false,
+      hint: 'Ele é responsável por encapsular a aplicação e permitir que sejam criadas as rotas (route) para que a aplicação seja navegável.',
+      link: 'https://app.betrybe.com/course/front-end/ciclo-de-vida-de-componentes-e-react-router/react-router/22d8da78-d744-421e-b669-d72ff189e506/conteudos/3bc63bd1-e611-45f8-b73f-b4f5fc98312a/componentes-browserrouter-e-route/ef565812-71f0-40cd-b65c-d965d94854df?use_case=side_bar',
+      question_id: 'd0320b10-531a-4a9d-bc5d-605be7126b8e'
+    },
+    {
+      id: '996da5a5-1e3f-4c77-9174-8b550c399ed0',
+      answer: 'Renderiza nossa aplicação.',
+      is_right: false,
+      hint: 'Ele é responsável por encapsular a aplicação e permitir que sejam criadas as rotas (route) para que a aplicação seja navegável.',
+      link: 'https://app.betrybe.com/course/front-end/ciclo-de-vida-de-componentes-e-react-router/react-router/22d8da78-d744-421e-b669-d72ff189e506/conteudos/3bc63bd1-e611-45f8-b73f-b4f5fc98312a/componentes-browserrouter-e-route/ef565812-71f0-40cd-b65c-d965d94854df?use_case=side_bar',
+      question_id: 'd0320b10-531a-4a9d-bc5d-605be7126b8e'
+    },
+    {
+      id: '6129ab75-0044-41db-9c4b-49017fd90f30',
+      answer: 'Redireciona para nossa “Home” que no caso renderiza o componente “Xablau”',
+      is_right: true,
+      hint: 'O path “/”, indica que é o caminho raiz da nossa aplicação, sendo a raiz da aplicação.',
+      link: 'https://app.betrybe.com/course/front-end/ciclo-de-vida-de-componentes-e-react-router/react-router/22d8da78-d744-421e-b669-d72ff189e506/conteudos/3bc63bd1-e611-45f8-b73f-b4f5fc98312a/componentes-browserrouter-e-route/ef565812-71f0-40cd-b65c-d965d94854df?use_case=side_bar',
+      question_id: '24da3cf7-382d-4837-baa4-1230e725d158'
+    },
+    {
+      id: 'e138cdc6-60cb-4a0b-a75f-bc803a81b936',
+      answer: 'Redireciona para a página “Xablau”',
+      is_right: false,
+      hint: 'O path “/”, indica que é o caminho raiz da nossa aplicação, sendo a raiz da aplicação.',
+      link: 'https://app.betrybe.com/course/front-end/ciclo-de-vida-de-componentes-e-react-router/react-router/22d8da78-d744-421e-b669-d72ff189e506/conteudos/3bc63bd1-e611-45f8-b73f-b4f5fc98312a/componentes-browserrouter-e-route/ef565812-71f0-40cd-b65c-d965d94854df?use_case=side_bar',
+      question_id: '24da3cf7-382d-4837-baa4-1230e725d158'
+    },
+    {
+      id: 'f084958c-79e4-4a19-afec-c70ae552b476',
+      answer: 'Redireciona para nossa “Home” e chama a função “Xablau”',
+      is_right: false,
+      hint: 'O path “/”, indica que é o caminho raiz da nossa aplicação, sendo a raiz da aplicação.',
+      link: 'https://app.betrybe.com/course/front-end/ciclo-de-vida-de-componentes-e-react-router/react-router/22d8da78-d744-421e-b669-d72ff189e506/conteudos/3bc63bd1-e611-45f8-b73f-b4f5fc98312a/componentes-browserrouter-e-route/ef565812-71f0-40cd-b65c-d965d94854df?use_case=side_bar',
+      question_id: '24da3cf7-382d-4837-baa4-1230e725d158'
+    },
+    {
+      id: 'a433d50a-0516-4b89-bf4c-c6896365abcc',
+      answer: 'Nenhuma pois opath está como “/”, ou seja nenhuma página foi passada.',
+      is_right: false,
+      hint: 'O path “/”, indica que é o caminho raiz da nossa aplicação, sendo a raiz da aplicação.',
+      link: 'https://app.betrybe.com/course/front-end/ciclo-de-vida-de-componentes-e-react-router/react-router/22d8da78-d744-421e-b669-d72ff189e506/conteudos/3bc63bd1-e611-45f8-b73f-b4f5fc98312a/componentes-browserrouter-e-route/ef565812-71f0-40cd-b65c-d965d94854df?use_case=side_bar',
+      question_id: '24da3cf7-382d-4837-baa4-1230e725d158'
+    },
+    {
+      id: '64f2f84f-96cd-46c0-9d7f-4491e2fb9c96',
+      answer: 'match , location e history',
+      is_right: true,
+      hint: 'As 3 props passadas via link são: match , location e history.',
+      link: 'https://app.betrybe.com/course/front-end/ciclo-de-vida-de-componentes-e-react-router/react-router/22d8da78-d744-421e-b669-d72ff189e506/conteudos/3bc63bd1-e611-45f8-b73f-b4f5fc98312a/componentes-route-com-passagem-de-props/e2791a8e-9a0b-4a49-8df4-83cd7feba34d?use_case=side_bar',
+      question_id: '1652bcde-fc80-4e94-a8c8-58fa260c0902'
+    },
+    {
+      id: '5c30ff58-7cf6-4987-80f6-3aee1bcbfc82',
+      answer: 'match , location e path',
+      is_right: false,
+      hint: 'As 3 props passadas via link são: match , location e history.',
+      link: 'https://app.betrybe.com/course/front-end/ciclo-de-vida-de-componentes-e-react-router/react-router/22d8da78-d744-421e-b669-d72ff189e506/conteudos/3bc63bd1-e611-45f8-b73f-b4f5fc98312a/componentes-route-com-passagem-de-props/e2791a8e-9a0b-4a49-8df4-83cd7feba34d?use_case=side_bar',
+      question_id: '1652bcde-fc80-4e94-a8c8-58fa260c0902'
+    },
+    {
+      id: 'a46a812d-b7e3-43e6-b719-26a1fca9eb98',
+      answer: 'match ,path e history',
+      is_right: false,
+      hint: 'As 3 props passadas via link são: match , location e history.',
+      link: 'https://app.betrybe.com/course/front-end/ciclo-de-vida-de-componentes-e-react-router/react-router/22d8da78-d744-421e-b669-d72ff189e506/conteudos/3bc63bd1-e611-45f8-b73f-b4f5fc98312a/componentes-route-com-passagem-de-props/e2791a8e-9a0b-4a49-8df4-83cd7feba34d?use_case=side_bar',
+      question_id: '1652bcde-fc80-4e94-a8c8-58fa260c0902'
+    },
+    {
+      id: '698a4d1a-da3e-4f2e-a5f8-8b054c33cdc0',
+      answer: 'path ,component e history',
+      is_right: false,
+      hint: 'As 3 props passadas via link são: match , location e history.',
+      link: 'https://app.betrybe.com/course/front-end/ciclo-de-vida-de-componentes-e-react-router/react-router/22d8da78-d744-421e-b669-d72ff189e506/conteudos/3bc63bd1-e611-45f8-b73f-b4f5fc98312a/componentes-route-com-passagem-de-props/e2791a8e-9a0b-4a49-8df4-83cd7feba34d?use_case=side_bar',
+      question_id: '1652bcde-fc80-4e94-a8c8-58fa260c0902'
+    },
+    {
+      id: '9314212b-2a41-44ce-a707-e1c378cccfc8',
+      answer: 'É um componente do React-Router-Dom que encapsula as rotas e renderiza de cima para baixo a primeira rota que tiver correspondência.',
+      is_right: true,
+      hint: 'O Switch é muito útil para garantirmos que apenas links de correspondência exata sejam renderizados evitando conflitos.',
+      link: 'https://app.betrybe.com/course/front-end/ciclo-de-vida-de-componentes-e-react-router/react-router/22d8da78-d744-421e-b669-d72ff189e506/conteudos/3bc63bd1-e611-45f8-b73f-b4f5fc98312a/componente-switch/60f7b58e-24b2-4b01-b027-94713cb1570d?use_case=side_bar',
+      question_id: '100dacfa-3848-4d09-a7d2-d61740737740'
+    },
+    {
+      id: '0325c211-09b3-4e8d-896e-24d46261bd93',
+      answer: 'É um interruptor que liga e desliga elementos da nossa aplicação.',
+      is_right: false,
+      hint: 'O Switch é muito útil para garantirmos que apenas links de correspondência exata sejam renderizados evitando conflitos.',
+      link: 'https://app.betrybe.com/course/front-end/ciclo-de-vida-de-componentes-e-react-router/react-router/22d8da78-d744-421e-b669-d72ff189e506/conteudos/3bc63bd1-e611-45f8-b73f-b4f5fc98312a/componente-switch/60f7b58e-24b2-4b01-b027-94713cb1570d?use_case=side_bar',
+      question_id: '100dacfa-3848-4d09-a7d2-d61740737740'
+    },
+    {
+      id: '6ac6d9ae-4f25-4032-9e8b-63bca66a2cf3',
+      answer: 'É um componente que encapsula a nossa aplicação e nos permite criar rodas.',
+      is_right: false,
+      hint: 'O Switch é muito útil para garantirmos que apenas links de correspondência exata sejam renderizados evitando conflitos.',
+      link: 'https://app.betrybe.com/course/front-end/ciclo-de-vida-de-componentes-e-react-router/react-router/22d8da78-d744-421e-b669-d72ff189e506/conteudos/3bc63bd1-e611-45f8-b73f-b4f5fc98312a/componente-switch/60f7b58e-24b2-4b01-b027-94713cb1570d?use_case=side_bar',
+      question_id: '100dacfa-3848-4d09-a7d2-d61740737740'
+    },
+    {
+      id: '291117bc-2c35-466a-a8f0-8af397d4cdfe',
+      answer: 'É uma função que cria links para a aplicação.',
+      is_right: false,
+      hint: 'O Switch é muito útil para garantirmos que apenas links de correspondência exata sejam renderizados evitando conflitos.',
+      link: 'https://app.betrybe.com/course/front-end/ciclo-de-vida-de-componentes-e-react-router/react-router/22d8da78-d744-421e-b669-d72ff189e506/conteudos/3bc63bd1-e611-45f8-b73f-b4f5fc98312a/componente-switch/60f7b58e-24b2-4b01-b027-94713cb1570d?use_case=side_bar',
+      question_id: '100dacfa-3848-4d09-a7d2-d61740737740'
+    },
+    {
+      id: '6cd764a6-2f20-40f3-a3ee-1ff7280d0195',
+      answer: 'Single Page Aplication',
+      is_right: true,
+      hint: 'São conhecidas como Single Page Aplication, pois, não há o recarregamento da página já que os componentes são montados e desmontados sem precisar ocorrer a mudança.',
+      link: 'https://app.betrybe.com/course/front-end/ciclo-de-vida-de-componentes-e-react-router/react-router/22d8da78-d744-421e-b669-d72ff189e506/conteudos/3bc63bd1-e611-45f8-b73f-b4f5fc98312a/single-page-application/4f644f1a-8944-4d92-8259-b13f37d3bf84?use_case=side_bar',
+      question_id: '6bef4946-63c2-4b89-b21e-26178b66d927'
+    },
+    {
+      id: 'd510987d-30d0-4af7-96d5-05b75933fb56',
+      answer: 'Singular Page Aplication',
+      is_right: false,
+      hint: 'São conhecidas como Single Page Aplication, pois, não há o recarregamento da página já que os componentes são montados e desmontados sem precisar ocorrer a mudança.',
+      link: 'https://app.betrybe.com/course/front-end/ciclo-de-vida-de-componentes-e-react-router/react-router/22d8da78-d744-421e-b669-d72ff189e506/conteudos/3bc63bd1-e611-45f8-b73f-b4f5fc98312a/single-page-application/4f644f1a-8944-4d92-8259-b13f37d3bf84?use_case=side_bar',
+      question_id: '6bef4946-63c2-4b89-b21e-26178b66d927'
+    },
+    {
+      id: '8f6bd598-550f-4359-a4ec-122e549a9631',
+      answer: 'Similar Page Alternative',
+      is_right: false,
+      hint: 'São conhecidas como Single Page Aplication, pois, não há o recarregamento da página já que os componentes são montados e desmontados sem precisar ocorrer a mudança.',
+      link: 'https://app.betrybe.com/course/front-end/ciclo-de-vida-de-componentes-e-react-router/react-router/22d8da78-d744-421e-b669-d72ff189e506/conteudos/3bc63bd1-e611-45f8-b73f-b4f5fc98312a/single-page-application/4f644f1a-8944-4d92-8259-b13f37d3bf84?use_case=side_bar',
+      question_id: '6bef4946-63c2-4b89-b21e-26178b66d927'
+    },
+    {
+      id: 'a10b0c67-42f8-48d8-aea5-9394be36f74b',
+      answer: 'Simulate Pages Aplication',
+      is_right: false,
+      hint: 'São conhecidas como Single Page Aplication, pois, não há o recarregamento da página já que os componentes são montados e desmontados sem precisar ocorrer a mudança.',
+      link: 'https://app.betrybe.com/course/front-end/ciclo-de-vida-de-componentes-e-react-router/react-router/22d8da78-d744-421e-b669-d72ff189e506/conteudos/3bc63bd1-e611-45f8-b73f-b4f5fc98312a/single-page-application/4f644f1a-8944-4d92-8259-b13f37d3bf84?use_case=side_bar',
+      question_id: '6bef4946-63c2-4b89-b21e-26178b66d927'
+    },
+    {
+      id: '394fd1e8-2fcf-46c2-bb3e-e82fdb99f689',
+      answer: 'É uma biblioteca do React que permite a criação e controle de rotas para nossas aplicações React.',
+      is_right: true,
+      hint: ' O React Router é uma lib completa para controle de rotas que permite que você consiga configurar as rotas utilizando o formato JSX.',
+      link: 'https://imasters.com.br/front-end/gerenciando-rotas-com-react-router#:~:text=O%20React%20Router%20%C3%A9%20uma,voc%C3%AA%20configurar%20diretamente%20via%20Javascript.',
+      question_id: '8335f7c8-4f46-48d3-bb9b-b2a53dc18b53'
+    },
+    {
+      id: '9ce574ae-2d73-4708-8a3e-1681a386f6a3',
+      answer: 'É uma Framework do React que permite a criação e controle de rotas para nossas aplicações React.',
+      is_right: false,
+      hint: ' O React Router é uma lib completa para controle de rotas que permite que você consiga configurar as rotas utilizando o formato JSX.',
+      link: 'https://imasters.com.br/front-end/gerenciando-rotas-com-react-router#:~:text=O%20React%20Router%20%C3%A9%20uma,voc%C3%AA%20configurar%20diretamente%20via%20Javascript.',
+      question_id: '8335f7c8-4f46-48d3-bb9b-b2a53dc18b53'
+    },
+    {
+      id: 'f0d43db7-5d44-45b9-9d4c-3bb996d653da',
+      answer: 'Uma função do React para realizar alterações no CSS e no DOM.',
+      is_right: false,
+      hint: ' O React Router é uma lib completa para controle de rotas que permite que você consiga configurar as rotas utilizando o formato JSX.',
+      link: 'https://imasters.com.br/front-end/gerenciando-rotas-com-react-router#:~:text=O%20React%20Router%20%C3%A9%20uma,voc%C3%AA%20configurar%20diretamente%20via%20Javascript.',
+      question_id: '8335f7c8-4f46-48d3-bb9b-b2a53dc18b53'
+    },
+    {
+      id: '30fcdf8a-d19f-4094-b6dd-9805c69c1b11',
+      answer: 'É a forma com que o React acessa o Dom.',
+      is_right: false,
+      hint: ' O React Router é uma lib completa para controle de rotas que permite que você consiga configurar as rotas utilizando o formato JSX.',
+      link: 'https://imasters.com.br/front-end/gerenciando-rotas-com-react-router#:~:text=O%20React%20Router%20%C3%A9%20uma,voc%C3%AA%20configurar%20diretamente%20via%20Javascript.',
+      question_id: '8335f7c8-4f46-48d3-bb9b-b2a53dc18b53'
+    },
+    {
+      id: 'a9372773-b02b-4587-9f55-e76b0fd55836',
+      answer: 'Utilizamos a tag “Link”',
+      is_right: true,
+      hint: 'Em React a definição de links de navegação é dada pela tag “Link”, diferente do que temos no HTML.',
+      link: 'https://app.betrybe.com/course/front-end/ciclo-de-vida-de-componentes-e-react-router/react-router/22d8da78-d744-421e-b669-d72ff189e506/conteudos/3bc63bd1-e611-45f8-b73f-b4f5fc98312a/componente-link/58487602-16c0-4898-b45e-5bb85c87cb7d?use_case=side_bar',
+      question_id: '73c90234-98e7-4f9a-b8c6-cc2997a0676d'
+    },
+    {
+      id: '48938e4e-b61e-40a2-9b4f-1d02ad249302',
+      answer: 'Utilizamos a tag “b”',
+      is_right: false,
+      hint: 'Em React a definição de links de navegação é dada pela tag “Link”, diferente do que temos no HTML.',
+      link: 'https://app.betrybe.com/course/front-end/ciclo-de-vida-de-componentes-e-react-router/react-router/22d8da78-d744-421e-b669-d72ff189e506/conteudos/3bc63bd1-e611-45f8-b73f-b4f5fc98312a/componente-link/58487602-16c0-4898-b45e-5bb85c87cb7d?use_case=side_bar',
+      question_id: '73c90234-98e7-4f9a-b8c6-cc2997a0676d'
+    },
+    {
+      id: '318f4f02-ec85-42ee-aff0-51e62fd6bc09',
+      answer: 'Utilizamos a tag “A”',
+      is_right: false,
+      hint: 'Em React a definição de links de navegação é dada pela tag “Link”, diferente do que temos no HTML.',
+      link: 'https://app.betrybe.com/course/front-end/ciclo-de-vida-de-componentes-e-react-router/react-router/22d8da78-d744-421e-b669-d72ff189e506/conteudos/3bc63bd1-e611-45f8-b73f-b4f5fc98312a/componente-link/58487602-16c0-4898-b45e-5bb85c87cb7d?use_case=side_bar',
+      question_id: '73c90234-98e7-4f9a-b8c6-cc2997a0676d'
+    },
+    {
+      id: '93f5c2ff-7ee3-49f7-a01d-fd82cfb1c578',
+      answer: 'Em React, não substituímos a tag “a”',
+      is_right: false,
+      hint: 'Em React a definição de links de navegação é dada pela tag “Link”, diferente do que temos no HTML.',
+      link: 'https://app.betrybe.com/course/front-end/ciclo-de-vida-de-componentes-e-react-router/react-router/22d8da78-d744-421e-b669-d72ff189e506/conteudos/3bc63bd1-e611-45f8-b73f-b4f5fc98312a/componente-link/58487602-16c0-4898-b45e-5bb85c87cb7d?use_case=side_bar',
+      question_id: '73c90234-98e7-4f9a-b8c6-cc2997a0676d'
+    },
+    {
+      id: 'ad995063-6b1f-4e0a-9ffa-7a5ed8a747db',
+      answer: 'Uma biblioteca de testes',
+      is_right: true,
+      hint: 'RTL siginifica React Testing Library, seu objetivo é testar os comportamentos de nossa aplicação React.',
+      link: 'https://app.betrybe.com/course/front-end/testes-automatizados-com-react-testing-library/rtl-primeiros-passos/4b749a62-3f4a-4fe6-872e-3d2853f089c8/conteudos/667b17bb-3ea3-447a-909c-ff5a13701fc5/introducao-ao-rtl/20ae0b43-4019-4180-bcb4-5eeb44ef8493?use_case=side_bar',
+      question_id: '1d21f642-8232-4418-b419-f4924ce7aac9'
+    },
+    {
+      id: '229db712-1892-4abb-b796-b77be907e7f6',
+      answer: 'Uma função JavaScript',
+      is_right: false,
+      hint: 'RTL siginifica React Testing Library, seu objetivo é testar os comportamentos de nossa aplicação React.',
+      link: 'https://app.betrybe.com/course/front-end/testes-automatizados-com-react-testing-library/rtl-primeiros-passos/4b749a62-3f4a-4fe6-872e-3d2853f089c8/conteudos/667b17bb-3ea3-447a-909c-ff5a13701fc5/introducao-ao-rtl/20ae0b43-4019-4180-bcb4-5eeb44ef8493?use_case=side_bar',
+      question_id: '1d21f642-8232-4418-b419-f4924ce7aac9'
+    },
+    {
+      id: 'cc502fc3-96f2-4518-bcdc-35ac055d6435',
+      answer: 'Uma Tag semântica HTML',
+      is_right: false,
+      hint: 'RTL siginifica React Testing Library, seu objetivo é testar os comportamentos de nossa aplicação React.',
+      link: 'https://app.betrybe.com/course/front-end/testes-automatizados-com-react-testing-library/rtl-primeiros-passos/4b749a62-3f4a-4fe6-872e-3d2853f089c8/conteudos/667b17bb-3ea3-447a-909c-ff5a13701fc5/introducao-ao-rtl/20ae0b43-4019-4180-bcb4-5eeb44ef8493?use_case=side_bar',
+      question_id: '1d21f642-8232-4418-b419-f4924ce7aac9'
+    },
+    {
+      id: '842a4edc-cf8d-4ada-b9e0-7175f9ad7637',
+      answer: 'Um método de desenvolvimento',
+      is_right: false,
+      hint: 'RTL siginifica React Testing Library, seu objetivo é testar os comportamentos de nossa aplicação React.',
+      link: 'https://app.betrybe.com/course/front-end/testes-automatizados-com-react-testing-library/rtl-primeiros-passos/4b749a62-3f4a-4fe6-872e-3d2853f089c8/conteudos/667b17bb-3ea3-447a-909c-ff5a13701fc5/introducao-ao-rtl/20ae0b43-4019-4180-bcb4-5eeb44ef8493?use_case=side_bar',
+      question_id: '1d21f642-8232-4418-b419-f4924ce7aac9'
+    },
+    {
+      id: 'cf7c97fc-588d-4e03-819a-2da3b11daddf',
+      answer: 'Uma função do RTL que simula eventos da pessoa usuária com nosso código.',
+      is_right: true,
+      hint: 'O fireEvent simula interações da pessoa usuária como o clique de um botão, por exemplo.',
+      link: 'https://testing-library.com/docs/dom-testing-library/api-events/',
+      question_id: 'd3ddfc04-ba7a-4171-b9db-bd126f05671d'
+    },
+    {
+      id: '4f1dc007-5cb1-42fd-8601-ce59037873d7',
+      answer: 'Uma função JavaScript que aciona um evento',
+      is_right: false,
+      hint: 'O fireEvent simula interações da pessoa usuária como o clique de um botão, por exemplo.',
+      link: 'https://testing-library.com/docs/dom-testing-library/api-events/',
+      question_id: 'd3ddfc04-ba7a-4171-b9db-bd126f05671d'
+    },
+    {
+      id: '0f7d7781-b9fe-41e9-a81c-a75392b4e0c2',
+      answer: 'Uma função React',
+      is_right: false,
+      hint: 'O fireEvent simula interações da pessoa usuária como o clique de um botão, por exemplo.',
+      link: 'https://testing-library.com/docs/dom-testing-library/api-events/',
+      question_id: 'd3ddfc04-ba7a-4171-b9db-bd126f05671d'
+    },
+    {
+      id: 'e18e4eeb-9405-4508-9844-ef80876021d1',
+      answer: 'Uma Tag HTML',
+      is_right: false,
+      hint: 'O fireEvent simula interações da pessoa usuária como o clique de um botão, por exemplo.',
+      link: 'https://testing-library.com/docs/dom-testing-library/api-events/',
+      question_id: 'd3ddfc04-ba7a-4171-b9db-bd126f05671d'
+    },
+    {
+      id: 'cab1c9d8-ca29-4cc2-bd47-a1a2ae142de7',
+      answer: 'Permite simular os comportamentos de navegação da pessoa usuária.',
+      is_right: true,
+      hint: 'A biblioteca history é uma ferramenta que permite acessar a sessão de histórico do navegador e também a localização atual (URL), onde quer que o JavaScript execute.',
+      link: 'https://reactrouter.com/web/api/history',
+      question_id: '22685e56-05a0-4503-98da-19c5407faa35'
+    },
+    {
+      id: '49f6e874-316b-4cc0-b6a2-fc5263080797',
+      answer: 'Permite simular a URL de um site da internet.',
+      is_right: false,
+      hint: 'A biblioteca history é uma ferramenta que permite acessar a sessão de histórico do navegador e também a localização atual (URL), onde quer que o JavaScript execute.',
+      link: 'https://reactrouter.com/web/api/history',
+      question_id: '22685e56-05a0-4503-98da-19c5407faa35'
+    },
+    {
+      id: '2ee2664d-e538-4e1d-8348-6fb58c52a75f',
+      answer: 'Cria as rotas da aplicação.',
+      is_right: false,
+      hint: 'A biblioteca history é uma ferramenta que permite acessar a sessão de histórico do navegador e também a localização atual (URL), onde quer que o JavaScript execute.',
+      link: 'https://reactrouter.com/web/api/history',
+      question_id: '22685e56-05a0-4503-98da-19c5407faa35'
+    },
+    {
+      id: '7b03fe0b-99d7-4169-8246-7c4ae6722aa3',
+      answer: 'Edita as rotas da aplicação.',
+      is_right: false,
+      hint: 'A biblioteca history é uma ferramenta que permite acessar a sessão de histórico do navegador e também a localização atual (URL), onde quer que o JavaScript execute.',
+      link: 'https://reactrouter.com/web/api/history',
+      question_id: '22685e56-05a0-4503-98da-19c5407faa35'
+    },
+    {
+      id: '12d23493-9c19-41a8-84e8-99f486c63753',
+      answer: 'É a simulação do comportamento de uma API para com o nosso código.',
+      is_right: true,
+      hint: 'Funções Mock, ou de simulação, também são conhecidos como "espiões", porque elas permitem você espionar o comportamento de uma função que é chamada indiretamente por algum outro código, ao invés de apenas testando a saída.',
+      link: 'https://deltice.github.io/jest/docs/pt-BR/mock-function-api.html#:~:text=Fun%C3%A7%C3%B5es%20Mock%2C%20ou%20de%20simula%C3%A7%C3%A3o,fn()%20.',
+      question_id: 'e5bc9c6c-6c5b-4f2c-abc1-02abb1e8512c'
+    },
+    {
+      id: '25bcd5b6-cddc-4d2c-a341-7cd15f358b5d',
+      answer: 'Uma função de criação de componentes React.',
+      is_right: false,
+      hint: 'Funções Mock, ou de simulação, também são conhecidos como "espiões", porque elas permitem você espionar o comportamento de uma função que é chamada indiretamente por algum outro código, ao invés de apenas testando a saída.',
+      link: 'https://deltice.github.io/jest/docs/pt-BR/mock-function-api.html#:~:text=Fun%C3%A7%C3%B5es%20Mock%2C%20ou%20de%20simula%C3%A7%C3%A3o,fn()%20.',
+      question_id: 'e5bc9c6c-6c5b-4f2c-abc1-02abb1e8512c'
+    },
+    {
+      id: 'c207d2c0-b0ee-4fd4-96b5-60ac58dd0065',
+      answer: 'Uma função do Javascript',
+      is_right: false,
+      hint: 'Funções Mock, ou de simulação, também são conhecidos como "espiões", porque elas permitem você espionar o comportamento de uma função que é chamada indiretamente por algum outro código, ao invés de apenas testando a saída.',
+      link: 'https://deltice.github.io/jest/docs/pt-BR/mock-function-api.html#:~:text=Fun%C3%A7%C3%B5es%20Mock%2C%20ou%20de%20simula%C3%A7%C3%A3o,fn()%20.',
+      question_id: 'e5bc9c6c-6c5b-4f2c-abc1-02abb1e8512c'
+    },
+    {
+      id: 'a68051a5-e926-4e82-a3ff-9645446a64c1',
+      answer: 'É a função do React que compila as funções para o HTML',
+      is_right: false,
+      hint: 'Funções Mock, ou de simulação, também são conhecidos como "espiões", porque elas permitem você espionar o comportamento de uma função que é chamada indiretamente por algum outro código, ao invés de apenas testando a saída.',
+      link: 'https://deltice.github.io/jest/docs/pt-BR/mock-function-api.html#:~:text=Fun%C3%A7%C3%B5es%20Mock%2C%20ou%20de%20simula%C3%A7%C3%A3o,fn()%20.',
+      question_id: 'e5bc9c6c-6c5b-4f2c-abc1-02abb1e8512c'
+    },
+    {
+      id: '2c9b0bff-470d-40c2-a346-80420d6ad17c',
+      answer: 'Evita que erros na API ou internet  impactem o teste do código, além de reduzir o tempo de execução.',
+      is_right: true,
+      hint: 'Os mocks evitam chamadas reais a APIs, que além de demorarem podem quebrar os testes em caso de erro de internet ou indisponibilidade da API, por isso, simulamos esse comportamento com o mock.',
+      link: 'https://app.betrybe.com/course/front-end/testes-automatizados-com-react-testing-library/rtl-mocks-e-inputs/e05ca38f-9d9a-445d-98b3-8d600908411b/por-que-isso-e-importante/3be1198e-7311-42d8-9265-627a69ce2222?use_case=side_bar',
+      question_id: '86b6a3fd-992d-45d9-96dd-75598ca937fc'
+    },
+    {
+      id: '4dba2798-3569-42ca-b7a7-81b0f68daf89',
+      answer: 'Para tornar as funções da aplicação mais rápidas.',
+      is_right: false,
+      hint: 'Os mocks evitam chamadas reais a APIs, que além de demorarem podem quebrar os testes em caso de erro de internet ou indisponibilidade da API, por isso, simulamos esse comportamento com o mock.',
+      link: 'https://app.betrybe.com/course/front-end/testes-automatizados-com-react-testing-library/rtl-mocks-e-inputs/e05ca38f-9d9a-445d-98b3-8d600908411b/por-que-isso-e-importante/3be1198e-7311-42d8-9265-627a69ce2222?use_case=side_bar',
+      question_id: '86b6a3fd-992d-45d9-96dd-75598ca937fc'
+    },
+    {
+      id: '0013e01e-4384-436c-af64-4fcced22f1de',
+      answer: 'Evitar erros de desatualização de versão do React.',
+      is_right: false,
+      hint: 'Os mocks evitam chamadas reais a APIs, que além de demorarem podem quebrar os testes em caso de erro de internet ou indisponibilidade da API, por isso, simulamos esse comportamento com o mock.',
+      link: 'https://app.betrybe.com/course/front-end/testes-automatizados-com-react-testing-library/rtl-mocks-e-inputs/e05ca38f-9d9a-445d-98b3-8d600908411b/por-que-isso-e-importante/3be1198e-7311-42d8-9265-627a69ce2222?use_case=side_bar',
+      question_id: '86b6a3fd-992d-45d9-96dd-75598ca937fc'
+    },
+    {
+      id: '1b1429f6-f055-4e7e-8b5a-bf69b4b114db',
+      answer: 'Para acessar a função em diferentes partes do código.',
+      is_right: false,
+      hint: 'Os mocks evitam chamadas reais a APIs, que além de demorarem podem quebrar os testes em caso de erro de internet ou indisponibilidade da API, por isso, simulamos esse comportamento com o mock.',
+      link: 'https://app.betrybe.com/course/front-end/testes-automatizados-com-react-testing-library/rtl-mocks-e-inputs/e05ca38f-9d9a-445d-98b3-8d600908411b/por-que-isso-e-importante/3be1198e-7311-42d8-9265-627a69ce2222?use_case=side_bar',
+      question_id: '86b6a3fd-992d-45d9-96dd-75598ca937fc'
+    },
+    {
+      id: 'ae6c6e01-9645-49e6-9307-03b54f812bae',
+      answer: 'É um hook que permite a utilização do state e outros recursos do React sem escrever uma classe.',
+      is_right: true,
+      hint: 'O useState é o hook mais comum e ele permite que você utilize o state e outros recursos do React sem escrever uma classe.',
+      link: 'https://app.betrybe.com/course/front-end/context-api-e-react-hooks/react-hooks-usestate-e-usecontext/9b6be40f-241a-4d7b-9edf-b145d87bcadb/conteudos/003b2bbc-5085-49ca-bbac-760b669158b9/usestate/154f19fa-2fe4-4272-8dea-3b6971216ed0?use_case=side_bar',
+      question_id: '4d85e5e9-2904-4e0f-8213-34289a5ff2cc'
+    },
+    {
+      id: '4ab7476b-76f8-48f1-88ff-5d1ac5ab81ad',
+      answer: 'É um interruptor que liga e desliga elementos da nossa aplicação.',
+      is_right: false,
+      hint: 'O useState é o hook mais comum e ele permite que você utilize o state e outros recursos do React sem escrever uma classe.',
+      link: 'https://app.betrybe.com/course/front-end/context-api-e-react-hooks/react-hooks-usestate-e-usecontext/9b6be40f-241a-4d7b-9edf-b145d87bcadb/conteudos/003b2bbc-5085-49ca-bbac-760b669158b9/usestate/154f19fa-2fe4-4272-8dea-3b6971216ed0?use_case=side_bar',
+      question_id: '4d85e5e9-2904-4e0f-8213-34289a5ff2cc'
+    },
+    {
+      id: '3e82e1ed-9869-4802-8073-7def3e814482',
+      answer: 'É uma função que nos permite importar estados de outras aplicações.',
+      is_right: false,
+      hint: 'O useState é o hook mais comum e ele permite que você utilize o state e outros recursos do React sem escrever uma classe.',
+      link: 'https://app.betrybe.com/course/front-end/context-api-e-react-hooks/react-hooks-usestate-e-usecontext/9b6be40f-241a-4d7b-9edf-b145d87bcadb/conteudos/003b2bbc-5085-49ca-bbac-760b669158b9/usestate/154f19fa-2fe4-4272-8dea-3b6971216ed0?use_case=side_bar',
+      question_id: '4d85e5e9-2904-4e0f-8213-34289a5ff2cc'
+    },
+    {
+      id: 'a0e22b91-6f22-4b7a-9fa3-631f72e64141',
+      answer: 'Indica para nosso código que é para usar o estado atual.',
+      is_right: false,
+      hint: 'O useState é o hook mais comum e ele permite que você utilize o state e outros recursos do React sem escrever uma classe.',
+      link: 'https://app.betrybe.com/course/front-end/context-api-e-react-hooks/react-hooks-usestate-e-usecontext/9b6be40f-241a-4d7b-9edf-b145d87bcadb/conteudos/003b2bbc-5085-49ca-bbac-760b669158b9/usestate/154f19fa-2fe4-4272-8dea-3b6971216ed0?use_case=side_bar',
+      question_id: '4d85e5e9-2904-4e0f-8213-34289a5ff2cc'
+    },
+    {
+      id: '3e7238cb-2b63-4484-8367-0df6dd034fbf',
+      answer: 'Todas anteriores',
+      is_right: true,
+      hint: 'O hook useEffect foi criado para ter os mesmos comportamento que as funções de ciclo de vida dos componentes de Classe.',
+      link: 'https://app.betrybe.com/course/front-end/context-api-e-react-hooks/react-hooks-useeffect-e-hooks-customizados/a59a891e-40b0-4638-8f44-c08d777c764b/o-que-vamos-aprender/12a157b9-f50c-4d7a-b29c-b6f32a1d2c7c?use_case=side_bar',
+      question_id: '29eb5a3a-597c-4257-86c4-18929a2f38e5'
+    },
+    {
+      id: '7531d048-20e2-4cbe-90f1-4cef173ae710',
+      answer: 'componentDidMount',
+      is_right: false,
+      hint: 'O hook useEffect foi criado para ter os mesmos comportamento que as funções de ciclo de vida dos componentes de Classe.',
+      link: 'https://app.betrybe.com/course/front-end/context-api-e-react-hooks/react-hooks-useeffect-e-hooks-customizados/a59a891e-40b0-4638-8f44-c08d777c764b/o-que-vamos-aprender/12a157b9-f50c-4d7a-b29c-b6f32a1d2c7c?use_case=side_bar',
+      question_id: '29eb5a3a-597c-4257-86c4-18929a2f38e5'
+    },
+    {
+      id: '5e9193c7-0c0e-4d4d-a3da-cc5f1c05da11',
+      answer: 'componentWillUnmount',
+      is_right: false,
+      hint: 'O hook useEffect foi criado para ter os mesmos comportamento que as funções de ciclo de vida dos componentes de Classe.',
+      link: 'https://app.betrybe.com/course/front-end/context-api-e-react-hooks/react-hooks-useeffect-e-hooks-customizados/a59a891e-40b0-4638-8f44-c08d777c764b/o-que-vamos-aprender/12a157b9-f50c-4d7a-b29c-b6f32a1d2c7c?use_case=side_bar',
+      question_id: '29eb5a3a-597c-4257-86c4-18929a2f38e5'
+    },
+    {
+      id: '883aa25d-c5b6-43d1-aa8b-3a5fcb30c11c',
+      answer: 'componentDidUpdate',
+      is_right: false,
+      hint: 'O hook useEffect foi criado para ter os mesmos comportamento que as funções de ciclo de vida dos componentes de Classe.',
+      link: 'https://app.betrybe.com/course/front-end/context-api-e-react-hooks/react-hooks-useeffect-e-hooks-customizados/a59a891e-40b0-4638-8f44-c08d777c764b/o-que-vamos-aprender/12a157b9-f50c-4d7a-b29c-b6f32a1d2c7c?use_case=side_bar',
+      question_id: '29eb5a3a-597c-4257-86c4-18929a2f38e5'
+    },
+    {
+      id: 'a604d133-3d8e-4d70-9a5a-32d1ade88c5a',
+      answer: 'Permite o compartilhamento de estados entre os componentes de uma aplicação.',
+      is_right: true,
+      hint: 'A Context API é um recurso do React que permite compartilhar estado entre diversos componentes em uma árvore de componentes sem a necessidade de se passar props e callbacks manualmente entre eles.',
+      link: 'https://app.betrybe.com/course/front-end/context-api-e-react-hooks/context-api-do-react/0cb0f74b-7d53-429d-8fb3-84edb046136f/por-que-isso-e-importante/ec51acc3-0aac-47fe-8f57-b6e64eb25a11?use_case=side_bar',
+      question_id: 'f7969b01-3df9-4334-ae07-6c42ff0b7112'
+    },
+    {
+      id: 'ed0ebe49-3960-4f5d-a6dd-7c82389ec485',
+      answer: 'Realiza o arquivamento dos retornos de uma API',
+      is_right: false,
+      hint: 'A Context API é um recurso do React que permite compartilhar estado entre diversos componentes em uma árvore de componentes sem a necessidade de se passar props e callbacks manualmente entre eles.',
+      link: 'https://app.betrybe.com/course/front-end/context-api-e-react-hooks/context-api-do-react/0cb0f74b-7d53-429d-8fb3-84edb046136f/por-que-isso-e-importante/ec51acc3-0aac-47fe-8f57-b6e64eb25a11?use_case=side_bar',
+      question_id: 'f7969b01-3df9-4334-ae07-6c42ff0b7112'
+    },
+    {
+      id: '3775c054-cca3-411b-bdf9-3730d571bad8',
+      answer: 'Permite a realização de requisições para API',
+      is_right: false,
+      hint: 'A Context API é um recurso do React que permite compartilhar estado entre diversos componentes em uma árvore de componentes sem a necessidade de se passar props e callbacks manualmente entre eles.',
+      link: 'https://app.betrybe.com/course/front-end/context-api-e-react-hooks/context-api-do-react/0cb0f74b-7d53-429d-8fb3-84edb046136f/por-que-isso-e-importante/ec51acc3-0aac-47fe-8f57-b6e64eb25a11?use_case=side_bar',
+      question_id: 'f7969b01-3df9-4334-ae07-6c42ff0b7112'
+    },
+    {
+      id: 'ad3cf005-29d0-4460-b452-8b12d41c08dd',
+      answer: 'Gerencia os estados de uma API',
+      is_right: false,
+      hint: 'A Context API é um recurso do React que permite compartilhar estado entre diversos componentes em uma árvore de componentes sem a necessidade de se passar props e callbacks manualmente entre eles.',
+      link: 'https://app.betrybe.com/course/front-end/context-api-e-react-hooks/context-api-do-react/0cb0f74b-7d53-429d-8fb3-84edb046136f/por-que-isso-e-importante/ec51acc3-0aac-47fe-8f57-b6e64eb25a11?use_case=side_bar',
+      question_id: 'f7969b01-3df9-4334-ae07-6c42ff0b7112'
+    },
+    {
+      id: 'e08fbf08-e0ad-479b-9c6a-316f5e83e7e0',
+      answer: 'São funções que permitem a utilização de estados e outros recursos sem a necessidade de criar uma classe.',
+      is_right: true,
+      hint: 'Hooks são uma nova adição ao React 16.8. Eles permitem que você use o state e outros recursos do React sem escrever uma classe',
+      link: 'https://pt-br.reactjs.org/docs/hooks-reference.html#useeffect',
+      question_id: '7404f1fe-1b6d-42a3-a2c5-cb3d71aad03e'
+    },
+    {
+      id: '3f8e6f99-fd87-448c-9fd2-e13f5f8a6ed7',
+      answer: 'São funções de teste utilizadas em React.',
+      is_right: false,
+      hint: 'Hooks são uma nova adição ao React 16.8. Eles permitem que você use o state e outros recursos do React sem escrever uma classe',
+      link: 'https://pt-br.reactjs.org/docs/hooks-reference.html#useeffect',
+      question_id: '7404f1fe-1b6d-42a3-a2c5-cb3d71aad03e'
+    },
+    {
+      id: 'a37dcadb-4802-4c83-91cc-6308962f568d',
+      answer: 'Uma biblioteca React que permite a realização de testes em uma aplicação.',
+      is_right: false,
+      hint: 'Hooks são uma nova adição ao React 16.8. Eles permitem que você use o state e outros recursos do React sem escrever uma classe',
+      link: 'https://pt-br.reactjs.org/docs/hooks-reference.html#useeffect',
+      question_id: '7404f1fe-1b6d-42a3-a2c5-cb3d71aad03e'
+    },
+    {
+      id: '7b0666e5-dca8-42e7-9f46-f0b815584dec',
+      answer: 'São funções que criam links entre classes React.',
+      is_right: false,
+      hint: 'Hooks são uma nova adição ao React 16.8. Eles permitem que você use o state e outros recursos do React sem escrever uma classe',
+      link: 'https://pt-br.reactjs.org/docs/hooks-reference.html#useeffect',
+      question_id: '7404f1fe-1b6d-42a3-a2c5-cb3d71aad03e'
+    },
+    {
+      id: 'fbe3c509-6845-45ab-aabd-42d840a5a5da',
+      answer: 'React Redux',
+      is_right: true,
+      hint: 'O context API e o Redux são gerenciadores de estado.',
+      link: 'https://app.betrybe.com/course/front-end/context-api-e-react-hooks/context-api-do-react/0cb0f74b-7d53-429d-8fb3-84edb046136f/conteudos/e6b66ef8-e624-4aa6-8919-d7b17d767a91/a-solucao/69b6c76c-10c7-4bb1-81f5-ddeaf584fa66?use_case=side_bar',
+      question_id: '3993b66c-b0a2-4862-9f96-7ba0cfc1412c'
+    },
+    {
+      id: 'c795b9ad-1cc3-4553-8edb-2dce880660b6',
+      answer: 'RTL',
+      is_right: false,
+      hint: 'O context API e o Redux são gerenciadores de estado.',
+      link: 'https://app.betrybe.com/course/front-end/context-api-e-react-hooks/context-api-do-react/0cb0f74b-7d53-429d-8fb3-84edb046136f/conteudos/e6b66ef8-e624-4aa6-8919-d7b17d767a91/a-solucao/69b6c76c-10c7-4bb1-81f5-ddeaf584fa66?use_case=side_bar',
+      question_id: '3993b66c-b0a2-4862-9f96-7ba0cfc1412c'
+    },
+    {
+      id: '8286a514-0ac2-450a-9b48-238d81163b3b',
+      answer: 'Eslint',
+      is_right: false,
+      hint: 'O context API e o Redux são gerenciadores de estado.',
+      link: 'https://app.betrybe.com/course/front-end/context-api-e-react-hooks/context-api-do-react/0cb0f74b-7d53-429d-8fb3-84edb046136f/conteudos/e6b66ef8-e624-4aa6-8919-d7b17d767a91/a-solucao/69b6c76c-10c7-4bb1-81f5-ddeaf584fa66?use_case=side_bar',
+      question_id: '3993b66c-b0a2-4862-9f96-7ba0cfc1412c'
+    },
+    {
+      id: '592c8462-21b6-4321-acac-f7053bf52d62',
+      answer: 'NPM',
+      is_right: false,
+      hint: 'O context API e o Redux são gerenciadores de estado.',
+      link: 'https://app.betrybe.com/course/front-end/context-api-e-react-hooks/context-api-do-react/0cb0f74b-7d53-429d-8fb3-84edb046136f/conteudos/e6b66ef8-e624-4aa6-8919-d7b17d767a91/a-solucao/69b6c76c-10c7-4bb1-81f5-ddeaf584fa66?use_case=side_bar',
+      question_id: '3993b66c-b0a2-4862-9f96-7ba0cfc1412c'
+    },
+    {
+      id: '32314d37-1f27-48ea-88d1-e6e799fd5d42',
+      answer: '<link href="style.css">',
+      is_right: false,
+      hint: 'Parece que você esqueceu um detalhe: precisamos indicar que o documento é uma folha de estilo com a propriedade rel="stylesheet". Sem isso os estilos não serão carregados. Confira o link para entender melhor!',
+      link: 'https://developer.mozilla.org/pt-BR/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML#aplicando_css_e_javascript_ao_html',
+      question_id: '0cfc03d5-ae40-46f0-be59-362369ccf94a'
+    },
+    {
+      id: 'd6ce95e2-c50a-4b0a-8a46-b6c068ad5e05',
+      answer: '<style href="style.css"></style>',
+      is_right: false,
+      hint: 'Eita! Você se confundiu. A tag "style" serve para definirmos os estilos "inline", isso é, dentro do próprio documento HTML. Confira como utilizar a sintaxe correta no link a seguir.',
+      link: 'https://developer.mozilla.org/pt-BR/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML#aplicando_css_e_javascript_ao_html',
+      question_id: '0cfc03d5-ae40-46f0-be59-362369ccf94a'
+    },
+    {
+      id: '750a38dd-539d-4716-8fb9-885305d8108e',
+      answer: '<link rel="stylesheet" src="style.css">',
+      is_right: false,
+      hint: 'Uh! Por pouco você não acertou! Acabou confundindo a propriedade "src", que utilizamos ao importar um arquivo JavaScript, com "href", que é a correta. Confira o link a seguir e tire suas dúvidas.',
+      link: 'https://developer.mozilla.org/pt-BR/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML#aplicando_css_e_javascript_ao_html',
+      question_id: '0cfc03d5-ae40-46f0-be59-362369ccf94a'
+    },
+    {
+      id: '9337585b-ed77-4409-8328-0f960e3122f5',
+      answer: '<link rel="stylesheet" href="style.css">',
+      is_right: true,
+      hint: 'Na mosca! Mas talvez você tenha sentido falta da propriedade "type", certo? Pois bem, a verdade é que ela está praticamente depreciada e era obrigatória antes da versão 5 do HTML. Confira a respeito no link a seguir.',
+      link: 'https://stackoverflow.com/questions/5409114/is-type-text-css-necessary-in-a-link-tag',
+      question_id: '0cfc03d5-ae40-46f0-be59-362369ccf94a'
+    },
+    {
+      id: '47eafa16-1407-4649-bfbd-9954760affa2',
+      answer: 'É uma função nativa do JavaScript utilizada para manipulação de arrays',
+      is_right: false,
+      hint: 'Apesar de existirem alguns métodos exclusivos para a manipulação de arrays, elas não representam a definição de callbacks',
+      link: 'https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Asynchronous/Introducing',
+      question_id: 'dfa5f1f0-18ac-48bc-855a-7c48a904f3f9'
+    },
+    {
+      id: '79a686a4-4ad3-4ca2-8e80-9ba41dafe68f',
+      answer: 'São funções para imprimir mensagens ao usuário como "console.log()" e "alert()"',
+      is_right: false,
+      hint: 'Você pode usar "console.log()" como uma função callback, porém callbacks não são funções para comunicar eventos ao usuário',
+      link: '',
+      question_id: 'dfa5f1f0-18ac-48bc-855a-7c48a904f3f9'
+    },
+    {
+      id: '8ec81203-97e6-43ef-b575-8718b0a3023e',
+      answer: 'São funções que realizam requisições HTTP como "fetch()"',
+      is_right: false,
+      hint: 'Requisições HTTP geralmente são assíncronas mas não são a definição de callbacks',
+      link: 'https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Asynchronous/Introducing',
+      question_id: 'dfa5f1f0-18ac-48bc-855a-7c48a904f3f9'
+    },
+    {
+      id: 'fc6b555d-dccf-4894-af13-24ba481722b3',
+      answer: 'São funções passadas como parâmetro para outras funções',
+      is_right: true,
+      hint: 'Isso aí! Callbacks são funções passadas como parâmetro para outras funções. Quando o código por trás panos é concluído a callback é chamada para informar o usuário ou dar continuidade ao fluxo de execução',
+      link: 'https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Asynchronous/Introducing',
+      question_id: 'dfa5f1f0-18ac-48bc-855a-7c48a904f3f9'
+    },
+    {
+      id: '2cea9157-0e76-4850-b7f8-60d88628286b',
+      answer: 'Verdadeiro',
+      is_right: false,
+      hint: 'A definição básica de uma API é uma Interface de Comunicação entre Aplicações. A API "gerencia" a comunicação entre o cliente e o servidor através de requisições e respostas, servindo como uma ponte, mas não armazena nenhuma informação',
+      link: 'https://www.techtudo.com.br/listas/2020/06/o-que-e-api-e-para-que-serve-cinco-perguntas-e-respostas.ghtml',
+      question_id: '0bdc2d3a-3734-490a-bd22-5a68bbe42cf1'
+    },
+    {
+      id: '21a9dc6d-2b5a-4402-bbc9-5a7d4aa6c530',
+      answer: 'Falso',
+      is_right: true,
+      hint: 'A definição básica de uma API é uma Interface de Comunicação entre Aplicações. A API "gerencia" a comunicação entre o cliente e o servidor através de requisições e respostas, servindo como uma ponte, mas não armazena nenhuma informação',
+      link: 'https://www.techtudo.com.br/listas/2020/06/o-que-e-api-e-para-que-serve-cinco-perguntas-e-respostas.ghtml',
+      question_id: '0bdc2d3a-3734-490a-bd22-5a68bbe42cf1'
+    },
+    {
+      id: 'a0769317-cc89-4e9d-afa1-43107743e5bb',
+      answer: 'sudo apt run jest',
+      is_right: false,
+      hint: 'A propriedade "test" é reservada e pode ser executada de forma direta através de "npm test".',
+      link: 'https://docs.npmjs.com/cli/v7/commands/npm-test',
+      question_id: '0762ced6-9861-4521-8db3-36d0932606d3'
+    },
+    {
+      id: '9672aada-fd78-4706-ae31-7c300997dbe1',
+      answer: 'npm run jest',
+      is_right: false,
+      hint: 'A concatenação "npm" + "run" + "alguma propriedade" vai executar algum comando personalizado que incluirmos no nosso arquivo package.json. Para executar a propriedade "test" podemos rodar na CLI "npm run test" de forma mais direta.',
+      link: 'https://docs.npmjs.com/cli/v7/commands/npm-test',
+      question_id: '0762ced6-9861-4521-8db3-36d0932606d3'
+    },
+    {
+      id: '7a7dbdb9-4128-4fe2-9cc9-79b8b2852e5e',
+      answer: 'npm test',
+      is_right: true,
+      hint: 'Correto! A propriedade "test" do arquivo package.json irá executar o comando que estiver especificado, nesse caso, todos os testes em Jest que estiverem no nosso projeto.',
+      link: 'https://docs.npmjs.com/cli/v7/commands/npm-test',
+      question_id: '0762ced6-9861-4521-8db3-36d0932606d3'
+    },
+    {
+      id: 'fed208ae-9bda-4c90-8be0-873a4fd1c673',
+      answer: 'npx run --jest test',
+      is_right: false,
+      hint: 'O npx é utilizado para executar bibliotecas que podem ser baixadas via npm. O jest não requer execução via npx',
+      link: 'https://docs.npmjs.com/cli/v7/commands/npm-test',
+      question_id: '0762ced6-9861-4521-8db3-36d0932606d3'
+    },
+    {
+      id: '82e18a1c-cad9-4742-923c-1234c53b8357',
+      answer: 'A última letra',
+      is_right: false,
+      hint: 'npx é um  package runner do NPM, um executor. Já o NPM é um gerenciador de pacotes, que possibilita instalar e desinstalar bibliotecas',
+      link: 'https://blog.rocketseat.com.br/conhecendo-o-npx-executor-de-pacote-do-npm/',
+      question_id: '712e928a-9eb1-442b-923a-cb0ad109282d'
+    },
+    {
+      id: '132310db-d78c-4f13-9df8-70efdf8c5f00',
+      answer: 'Nenhuma, os dois fazem a mesma coisa! Você escolhe o que usar',
+      is_right: false,
+      hint: 'NPM é o "gerente" que é responsável por instalar as bibliotecas e o NPX executa as bibliotecas sem precisar instalar.',
+      link: 'https://app.betrybe.com/course/front-end/introducao-a-react/hello-world-no-react/19e8c3e8-cc51-4a52-a917-00e333ce11ac/conteudos/bd56a1df-6308-431f-a937-b7ff59e440c7/gerenciador-de-pacotes/3aad8c52-9953-41ff-94f2-27689aa47e6c?use_case=side_bar',
+      question_id: '712e928a-9eb1-442b-923a-cb0ad109282d'
+    },
+    {
+      id: '48b17965-643f-4f0f-b32c-fca7216787eb',
+      answer: 'O NPX tem mais funções',
+      is_right: false,
+      hint: 'O NPX executa os pacotes sem precisar instalar todos na sua máquina.',
+      link: 'https://blog.rocketseat.com.br/conhecendo-o-npx-executor-de-pacote-do-npm/',
+      question_id: '712e928a-9eb1-442b-923a-cb0ad109282d'
+    },
+    {
+      id: 'bcf77197-2d72-40c7-9c2f-9c0dba72e934',
+      answer: 'NPM instala os pacotes e o NPX executa sem instalar',
+      is_right: true,
+      hint: 'Isso mesmo! O NPM gerencia os pacotes e o NPM executa ( por isso o x no fim da sigla)',
+      link: 'https://blog.rocketseat.com.br/conhecendo-o-npx-executor-de-pacote-do-npm/',
+      question_id: '712e928a-9eb1-442b-923a-cb0ad109282d'
     }
   ], {}),
 
