@@ -7,9 +7,9 @@ module.exports = {
       id: '37388c96-f607-4927-99b0-b1c5c57ff73b',
       question: 'Quais das opções abaixo não são consideradas HOF’S (Higher Order Functions)?',
       type: 'multi-choice',
-      difficulty: 1,
-      theme: 'Higher Order Functions do JavaScript ES6',
-      image: '',
+      difficulty: 2,
+      theme: 'Higher Order Functions',
+      image: null,
       block: 8,
       module_id: 'efff8570-5cb7-4090-bd58-46f4b5a335a6',
       user_id: '911cac15-2492-400e-9d86-b4fca881de8e'

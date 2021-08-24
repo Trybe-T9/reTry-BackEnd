@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +8,32 @@
 </head>
 <body>
   <header>Questão</header>
-  
-  <% console.log(question) %> 
+  <main>
+    <a href="/admin/questions">Voltar</a>
+    <a href=<%= `/admin/questions/${question.id}/update` %>><button>Atualizar</button></a>
+    <a href=<%= `/admin/questions/${question.id}/delete` %>><button>Deletar</button></a>
+
+    <p>Id: <%= question.id %></p>
+    <h4>Pergunta: <%= question.question %></h4>
+    <% if (question.image) { %>
+      <img src=<%= `/api/v1/questions/image?link=${question.image}`%> width="300px"/>
+    <% } %> 
+    <p>Tipo: <%= question.type %></p>
+    <p>Modulo: <%= question.module_data.module %></p>
+    <p>Bloco: <%= question.block %></p>
+    <p>Tema: <%= question.theme %></p>
+    <p>Dificuldade: <%= question.difficulty %></p>
+    <p>Usuário: <%= question.userId %></p>
+    <br />
+    <br />
+    <% question.answers.forEach((answer) => { %>
+      <p>Id: <%= answer.id %></p>
+      <p>Resposta: <%= answer.answer %></p>
+      <p>Correta: <%= answer.isRight %></p>
+      <p>Dica: <%= answer.hint %></p>
+      <p>Link: <a href=<%= answer.link %>><%= answer.link %></a></p>
+      <br />
+    <% }) %> 
+  </main>
 </body>
 </html>
