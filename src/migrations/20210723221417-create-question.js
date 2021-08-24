@@ -9,7 +9,7 @@ module.exports = {
         primaryKey: true,
       },
       question: {
-        type: DataTypes.STRING,
+        type: DataTypes.TEXT,
       },
       type: {
         type: DataTypes.STRING(12)

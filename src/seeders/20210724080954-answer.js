@@ -48,7 +48,7 @@ module.exports = {
       answer: 'Falso',
       is_right: true,
       hint: 'Isso mesmo! No React, o retorno de um componente que possui mais de um "elemento filho" deve estar encapsulado dentro de um único elemento. Por isso, o código vai levantar um erro.',
-      link: undefined,
+      link: 'https://pt-br.reactjs.org/docs/fragments.html',
       question_id: '8496ec78-9e92-4bb6-bf92-a722a4ed2953'
     },
     {
@@ -801,7 +801,7 @@ module.exports = {
       is_right: false,
       hint: 'O INNER JOIN é um excelente método para unir tabelas que tenham um dado em comum entre si. Nessa situação o mehor método seria o UNION',
       link: 'https://dev.mysql.com/doc/refman/8.0/en/union.html',
-      question_id: '7db960c8-23a6-4e79-8dbb-5e809d7b96b3'
+      question_id: 'bd00a339-7aea-44a0-8661-756cc2050118'
     },{
       id: 'aca53c97-0136-4d2a-95e3-8f0032339e2f',
       answer: 'UNION ALL',

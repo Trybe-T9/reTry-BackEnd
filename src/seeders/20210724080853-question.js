@@ -4,18 +4,18 @@ module.exports = {
   up: async (queryInterface, _Sequelize) => queryInterface.bulkInsert('question',
   [
     {
-      id: '37388c96-f607-4927-99b0-b1c5c57ff73b',
+      id: '946731e6-68aa-49be-94de-8ba1b55cfa6b',
       question: 'Quais das opções abaixo não são consideradas HOF’S (Higher Order Functions)?',
       type: 'multi-choice',
       difficulty: 2,
       theme: 'Higher Order Functions',
-      image: null,
+      image: '',
       block: 8,
       module_id: 'efff8570-5cb7-4090-bd58-46f4b5a335a6',
       user_id: '911cac15-2492-400e-9d86-b4fca881de8e'
     },
     {
-      id: '6017f770-d152-4c1e-b6f3-2363fb4cb26f',
+      id: '8496ec78-9e92-4bb6-bf92-a722a4ed2953',
       question: 'O componente do código da imagem seria renderizado sem problemas.',
       type: 'boolean',
       difficulty: 2,
@@ -26,7 +26,7 @@ module.exports = {
       user_id: '911cac15-2492-400e-9d86-b4fca881de8e'
     },
     {
-      id: '93e14782-eeb0-4d78-ab39-ec19908dfae7',
+      id: 'b51f5957-627d-4380-b801-21088dc4b041',
       question: 'Como o reducer altera o estado geral da aplicação?',
       type: 'multi-choice',
       difficulty: 2,
@@ -37,7 +37,7 @@ module.exports = {
       user_id: '911cac15-2492-400e-9d86-b4fca881de8e'
     },
     {
-      id: '5bd39c3a-5594-4b50-8766-5c01f5254884',
+      id: 'db528663-c100-495d-83bf-179adc42dbab',
       question: 'Em React Router, qual o nome do componente que renderiza um "href" mudando a rota da minha aplicação?',
       type: 'multi-choice',
       difficulty: 1,
@@ -48,7 +48,7 @@ module.exports = {
       user_id: '911cac15-2492-400e-9d86-b4fca881de8e'
     },
     {
-      id: '71d09cf6-0b8e-4707-8532-f66626523754',
+      id: '5a181751-ece8-49ba-939d-3023621a5fbb',
       question: 'Toda função assíncrona retorna uma Promise',
       type: 'boolean',
       difficulty: 2,
@@ -59,7 +59,7 @@ module.exports = {
       user_id: '911cac15-2492-400e-9d86-b4fca881de8e'
     },
     {
-      id: '7c78bef5-eeb3-4673-ab96-b294878edb18',
+      id: 'f00403e2-f913-42b1-9196-2dd38d11081f',
       question: 'Quanto ao ciclo de vida de um componente React, a gente pode dizer que o método componentDidMount...',
       type: 'multi-choice',
       difficulty: 1,
@@ -70,7 +70,7 @@ module.exports = {
       user_id: '911cac15-2492-400e-9d86-b4fca881de8e'
     },
     {
-      id: '6ce7ff55-1bc3-4cd2-9407-578c0fdad46d',
+      id: '104c3b73-6467-456c-b6c7-d6079a565dc1',
       question: 'O ______ é executado antes de um componente ser desmontado.',
       type: 'multi-choice',
       difficulty: 1,
@@ -81,7 +81,7 @@ module.exports = {
       user_id: '911cac15-2492-400e-9d86-b4fca881de8e'
     },
     {
-      id: 'db2cfd7e-fa99-48ed-b34d-a1bfa6ff25e0',
+      id: 'b046dfb2-0ffd-4bf4-946e-90365154fcdb',
       question: 'O que a Higher Order Function "forEach" retorna?',
       type: 'multi-choice',
       difficulty: 1,
@@ -92,7 +92,7 @@ module.exports = {
       user_id: '911cac15-2492-400e-9d86-b4fca881de8e'
     },
     {
-      id: 'ae0c48ad-1d5a-45d7-9501-512bbfc1c9ba',
+      id: '009016cf-ab90-4a69-a02c-6bbd87b62864',
       question: 'CRUD é um conceito no Desenvolvimento de Sistemas?',
       type: 'boolean',
       difficulty: 1,
@@ -103,7 +103,7 @@ module.exports = {
       user_id: '911cac15-2492-400e-9d86-b4fca881de8e'
     },
     {
-      id: '42a7fde3-5530-4e9b-9f4d-7df9dfc49f96',
+      id: '0a6c9cda-9fdd-4cbf-bdd1-c1d1a2c8b199',
       question: 'Qual(is) dos seguintes comandos podem ser usados para acessar um valor guardado no Local Storage?\n' +
         '    A: localStorage.getItem("NOME_DA_CHAVE")\n' +
         '    B: localStorage.setItem("NOME_DA_CHAVE", "VALOR_DA_CHAVE")\n' +
@@ -118,7 +118,7 @@ module.exports = {
       user_id: '911cac15-2492-400e-9d86-b4fca881de8e'
     },
     {
-      id: 'f533fbad-4404-4981-8d2c-dbde21044fab',
+      id: 'be115d73-c89a-4ca2-bab3-a59275dd891a',
       question: 'O código mais comum para criar um escutador de eventos é através de uma função nativa do JavaScript, chamada addEventListener. A respeito dela, podemos dizer que...',
       type: 'multi-choice',
       difficulty: 1,
@@ -129,7 +129,7 @@ module.exports = {
       user_id: '911cac15-2492-400e-9d86-b4fca881de8e'
     },
     {
-      id: 'f2b6d0b0-fb87-4f9f-895d-a2e44df46b13',
+      id: 'dce0383c-a03a-424f-a476-a83c2064d617',
       question: 'Para criar uma nova aplicação em React é necessário executar o comando:',
       type: 'multi-choice',
       difficulty: 1,
@@ -140,7 +140,7 @@ module.exports = {
       user_id: '911cac15-2492-400e-9d86-b4fca881de8e'
     },
     {
-      id: '75240eb9-450e-4237-b38e-c3b8e5ced503',
+      id: 'b355cbe5-d091-4951-b0d8-aa63a0425183',
       question: 'No React, quais propriedades utilizamos, respectivamente, em um elemento "input" e um elemento "label" para associar um ao outro?',
       type: 'multi-choice',
       difficulty: 1,
@@ -151,7 +151,7 @@ module.exports = {
       user_id: '911cac15-2492-400e-9d86-b4fca881de8e'
     },
     {
-      id: 'bdfae4cf-4825-4a57-9bb9-ad1c0781f24f',
+      id: 'fcbf1d8b-be84-4ef3-8901-8644c3c8b7a6',
       question: 'Utilizamos a Higher Order Function ______ para retornar um booleano que indica se todos os elementos do array retornam "true" quando passados para uma callback.',
       type: 'multi-choice',
       difficulty: 1,
@@ -162,7 +162,7 @@ module.exports = {
       user_id: '911cac15-2492-400e-9d86-b4fca881de8e'
     },
     {
-      id: 'd089261c-0359-4c77-861b-e603b311cbd5',
+      id: 'f93332df-d4be-4def-b9c1-11eb9ef3537a',
       question: 'O Git é um versionador de arquivos que nos permite guardar nossos arquivos online e alternar entre as diversas versões commitadas',
       type: 'boolean',
       difficulty: 2,
@@ -173,7 +173,7 @@ module.exports = {
       user_id: '911cac15-2492-400e-9d86-b4fca881de8e'
     },
     {
-      id: '8dbda4b3-360b-4efb-994e-bb2f16bfcffb',
+      id: '0c143303-89c8-4b1c-bc92-da202db541e3',
       question: 'Você está está programando e, para utilizar o resultado de uma Promise, resolve usar a expressão "await" fora de uma função assíncrona...',
       type: 'boolean',
       difficulty: 1,
@@ -184,7 +184,7 @@ module.exports = {
       user_id: '911cac15-2492-400e-9d86-b4fca881de8e'
     },
     {
-      id: 'f4b57891-5137-43a6-89bf-40381c99c8d3',
+      id: '23c09cd6-09f3-47b0-a141-6934e8f36c84',
       question: 'Quanto à propriedade "order" do Flexbox, podemos afirmar que é uma propriedade particular de cada item que - quando atribuída - exibe os itens em ordem crescente. Por padrão, cada item recebe o valor 1 e o item que tiver o valor de -1 é exibido no final',
       type: 'boolean',
       difficulty: 3,
@@ -195,7 +195,7 @@ module.exports = {
       user_id: '911cac15-2492-400e-9d86-b4fca881de8e'
     },
     {
-      id: 'e30d1dc5-150e-4504-a148-9875820f48ee',
+      id: '07620e7f-e738-4b2d-8cbf-115bbeb2b0aa',
       question: 'Sobre localStorage é correto afirmar que:',
       type: 'multi-choice',
       difficulty: 3,
@@ -206,7 +206,7 @@ module.exports = {
       user_id: '911cac15-2492-400e-9d86-b4fca881de8e'
     },
     {
-      id: '712a94c6-a9b3-4675-b075-332b03aacf12',
+      id: '47879841-b757-46fc-8c61-2661e1a94310',
       question: 'Em um componente de classe do React, se eu quiser utilizar o seu estado num método que eu criei, não preciso "fazer o bind" no "constructor".',
       type: 'boolean',
       difficulty: 1,
@@ -217,7 +217,7 @@ module.exports = {
       user_id: '911cac15-2492-400e-9d86-b4fca881de8e'
     },
     {
-      id: 'bd84d4d4-c9f9-4162-99f0-f51e06097b37',
+      id: 'cd42748d-ffcf-4acd-a289-36d9e6f9c6d7',
       question: 'Qual comando utilizamos para renomear um arquivo através do terminal no Linux?',
       type: 'multi-choice',
       difficulty: 2,
@@ -228,7 +228,7 @@ module.exports = {
       user_id: '911cac15-2492-400e-9d86-b4fca881de8e'
     },
     {
-      id: '7b848089-77d8-4c1c-b28a-607c0711146d',
+      id: '8c78fd98-2c09-44fb-95d4-aa50709e4d50',
       question: 'Sobre sessionStorage é incorreto afirmar que:',
       type: 'multi-choice',
       difficulty: 2,
@@ -239,7 +239,7 @@ module.exports = {
       user_id: '911cac15-2492-400e-9d86-b4fca881de8e'
     },
     {
-      id: '154acd94-e5bb-4783-8224-35c1af5e9f44',
+      id: '41ed60a8-3064-4738-a815-9d329064ebbf',
       question: 'Imagine que você esta trabalhando em um projeto e, logo após commitar, percebe que escreveu uma mensagem errada ou adicionou algo que não devia. Qual comando utilizaria para remover esse commit?',
       type: 'multi-choice',
       difficulty: 1,
@@ -250,7 +250,7 @@ module.exports = {
       user_id: '911cac15-2492-400e-9d86-b4fca881de8e'
     },
     {
-      id: 'ca7655b5-0261-40c2-8113-92879aeacf79',
+      id: 'fc384176-62b1-4619-bf6f-d00ff6b54239',
       question: 'O ______ é o componente que relaciona o caminho de uma URL com a renderização de um componente.',
       type: 'multi-choice',
       difficulty: 2,
@@ -261,7 +261,7 @@ module.exports = {
       user_id: '911cac15-2492-400e-9d86-b4fca881de8e'
     },
     {
-      id: '8f187c27-1a60-4b36-b57c-28f9bdb81e62',
+      id: '036caf5f-3881-48a1-b825-296c96e2caa2',
       question: 'Toda HOF recebe ou retornam funções como parâmetros.',
       type: 'boolean',
       difficulty: 3,
@@ -272,7 +272,7 @@ module.exports = {
       user_id: '911cac15-2492-400e-9d86-b4fca881de8e'
     },
     {
-      id: 'f5e13360-6f50-457f-8de0-5d123ac6c458',
+      id: 'e61dd876-f20a-4ade-b9b9-7710c41db1a7',
       question: 'O que podemos fazer quando o Evaluator da Trybe no Github está rodando há mais de 40 minutos sem terminar o teste ou quebra inexplicavelmente?',
       type: 'multi-choice',
       difficulty: 2,
@@ -283,7 +283,7 @@ module.exports = {
       user_id: '911cac15-2492-400e-9d86-b4fca881de8e'
     },
     {
-      id: '56e9eec7-2bc4-48db-a7f9-2e41460e5a78',
+      id: '5b77368b-625d-4173-9df4-5f56e6d2c9f4',
       question: 'Com relação as Metodologias Ágeis, em uma Daily Meeting os integrantes do time devem basicamente responder quais perguntas?',
       type: 'multi-choice',
       difficulty: 1,
@@ -294,7 +294,7 @@ module.exports = {
       user_id: '911cac15-2492-400e-9d86-b4fca881de8e'
     },
     {
-      id: '9bd93c11-6de0-4c5f-830f-88daea307be4',
+      id: '52243da5-96c1-49a3-85e5-15580e1e0caf',
       question: 'Sobre as metodologias ágeis e Scrum podemos afirmar que:',
       type: 'multi-choice',
       difficulty: 2,
@@ -305,7 +305,7 @@ module.exports = {
       user_id: '911cac15-2492-400e-9d86-b4fca881de8e'
     },
     {
-      id: '228fa087-0b99-41f1-915e-d9dcb0211969',
+      id: '16b8aac0-ed53-46ed-b35f-469b7e17ec2c',
       question: 'O que são constraints em bancos de dados relacionais?',
       type: 'multi-choice',
       difficulty: 1,
@@ -316,7 +316,7 @@ module.exports = {
       user_id: '911cac15-2492-400e-9d86-b4fca881de8e'
     },
     {
-      id: 'd1529754-d0cf-41c6-8f57-23c6936d4c3d',
+      id: 'd32f1083-2e9f-47fd-91f6-4875e6385708',
       question: 'Quais os tipos de bancos de dados que existem?',
       type: 'multi-choice',
       difficulty: 1,
@@ -327,7 +327,7 @@ module.exports = {
       user_id: '911cac15-2492-400e-9d86-b4fca881de8e'
     },
     {
-      id: '1682f54b-8f5a-43f9-be33-eace42b59482',
+      id: 'bd00a339-7aea-44a0-8661-756cc2050118',
       question: 'Imagine que temos duas tabelas trybers_cats e trybers_dogs com os nomes dos pets dos alunos da turma 9. Se quisermos os nomes de todos os pets independente da espécie em uma única tabela qual seria o método mais adequado?',
       type: 'multi-choice',
       difficulty: 2,
@@ -338,7 +338,7 @@ module.exports = {
       user_id: '911cac15-2492-400e-9d86-b4fca881de8e'
     },
     {
-      id: 'bf8ccdbd-e0e9-4825-931c-c02c42f54779',
+      id: '195b997c-e845-4ebc-9dfd-1cfd05199956',
       question: 'O que é uma SUBQUERY?',
       type: 'multi-choice',
       difficulty: 1,
@@ -349,7 +349,7 @@ module.exports = {
       user_id: '911cac15-2492-400e-9d86-b4fca881de8e'
     },
     {
-      id: '99ed8b4c-1120-4577-8770-c1af19e00081',
+      id: 'abe650cd-37b8-461a-80f4-76802ae6da18',
       question: 'A biblioteca Joi permite que sejam criados schemas para fazer a validação de objetos JavaScript. Qual das alternativas contém uma sintaxe correta para validar um campo de email obrigatório com no máximo 60 caracteres?',
       type: 'multi-choice',
       difficulty: 3,
@@ -360,7 +360,7 @@ module.exports = {
       user_id: '911cac15-2492-400e-9d86-b4fca881de8e'
     },
     {
-      id: '13638026-e9ee-4873-8ee6-ccc83901f915',
+      id: '41d007ac-c90a-4a2b-8d91-e77a195afdc2',
       question: '<code><MyComponent customProp /></code>\n' +
         '    Considerando o código acima, é correto dizer que dentro do componente "MyComponent" a prop "customProp" receberá o valor:\n' +
         '    ',
@@ -378,6 +378,7 @@ module.exports = {
       type: 'multi-choice',
       difficulty: 2,
       theme: 'Gerenciamento de estado com Redux',
+      image: '',
       block: 16,
       module_id: 'a5df9455-4d7f-4f52-94cb-eb830b416cad',
       user_id: '911cac15-2492-400e-9d86-b4fca881de8e'
@@ -388,6 +389,7 @@ module.exports = {
       type: 'multi-choice',
       difficulty: 2,
       theme: 'Gerenciamento de estado com Redux',
+      image: '',
       block: 16,
       module_id: 'a5df9455-4d7f-4f52-94cb-eb830b416cad',
       user_id: '911cac15-2492-400e-9d86-b4fca881de8e'
@@ -398,6 +400,7 @@ module.exports = {
       type: 'multi-choice',
       difficulty: 2,
       theme: 'Gerenciamento de estado com Redux',
+      image: '',
       block: 16,
       module_id: 'a5df9455-4d7f-4f52-94cb-eb830b416cad',
       user_id: '911cac15-2492-400e-9d86-b4fca881de8e'
@@ -408,6 +411,7 @@ module.exports = {
       type: 'multi-choice',
       difficulty: 2,
       theme: 'Gerenciamento de estado com Redux',
+      image: '',
       block: 16,
       module_id: 'a5df9455-4d7f-4f52-94cb-eb830b416cad',
       user_id: '911cac15-2492-400e-9d86-b4fca881de8e'
@@ -418,6 +422,7 @@ module.exports = {
       type: 'multi-choice',
       difficulty: 2,
       theme: 'Gerenciamento de estado com Redux',
+      image: '',
       block: 16,
       module_id: 'a5df9455-4d7f-4f52-94cb-eb830b416cad',
       user_id: '911cac15-2492-400e-9d86-b4fca881de8e'
@@ -428,6 +433,7 @@ module.exports = {
       type: 'multi-choice',
       difficulty: 2,
       theme: 'Gerenciamento de estado com Redux',
+      image: '',
       block: 16,
       module_id: 'a5df9455-4d7f-4f52-94cb-eb830b416cad',
       user_id: '911cac15-2492-400e-9d86-b4fca881de8e'
@@ -438,6 +444,7 @@ module.exports = {
       type: 'multi-choice',
       difficulty: 2,
       theme: 'Gerenciamento de estado com Redux',
+      image: '',
       block: 16,
       module_id: 'a5df9455-4d7f-4f52-94cb-eb830b416cad',
       user_id: '911cac15-2492-400e-9d86-b4fca881de8e'
@@ -448,6 +455,7 @@ module.exports = {
       type: 'multi-choice',
       difficulty: 2,
       theme: 'Gerenciamento de estado com Redux',
+      image: '',
       block: 16,
       module_id: 'a5df9455-4d7f-4f52-94cb-eb830b416cad',
       user_id: '911cac15-2492-400e-9d86-b4fca881de8e'
@@ -458,6 +466,7 @@ module.exports = {
       type: 'multi-choice',
       difficulty: 2,
       theme: 'Gerenciamento de estado com Redux',
+      image: '',
       block: 16,
       module_id: 'a5df9455-4d7f-4f52-94cb-eb830b416cad',
       user_id: '911cac15-2492-400e-9d86-b4fca881de8e'
@@ -468,6 +477,7 @@ module.exports = {
       type: 'multi-choice',
       difficulty: 2,
       theme: 'Gerenciamento de estado com Redux',
+      image: '',
       block: 16,
       module_id: 'a5df9455-4d7f-4f52-94cb-eb830b416cad',
       user_id: '911cac15-2492-400e-9d86-b4fca881de8e'
@@ -478,6 +488,7 @@ module.exports = {
       type: 'multi-choice',
       difficulty: 2,
       theme: 'Ciclo de Vida de Componentes e React Router',
+      image: '',
       block: 13,
       module_id: 'a5df9455-4d7f-4f52-94cb-eb830b416cad',
       user_id: '911cac15-2492-400e-9d86-b4fca881de8e'
@@ -488,6 +499,7 @@ module.exports = {
       type: 'multi-choice',
       difficulty: 2,
       theme: 'Ciclo de Vida de Componentes e React Router',
+      image: '',
       block: 13,
       module_id: 'a5df9455-4d7f-4f52-94cb-eb830b416cad',
       user_id: '911cac15-2492-400e-9d86-b4fca881de8e'
@@ -498,6 +510,7 @@ module.exports = {
       type: 'multi-choice',
       difficulty: 2,
       theme: 'Ciclo de Vida de Componentes e React Router',
+      image: '',
       block: 13,
       module_id: 'a5df9455-4d7f-4f52-94cb-eb830b416cad',
       user_id: '911cac15-2492-400e-9d86-b4fca881de8e'
@@ -508,6 +521,7 @@ module.exports = {
       type: 'multi-choice',
       difficulty: 2,
       theme: 'Ciclo de Vida de Componentes e React Router',
+      image: '',
       block: 13,
       module_id: 'a5df9455-4d7f-4f52-94cb-eb830b416cad',
       user_id: '911cac15-2492-400e-9d86-b4fca881de8e'
@@ -518,6 +532,7 @@ module.exports = {
       type: 'multi-choice',
       difficulty: 2,
       theme: 'Ciclo de Vida de Componentes e React Router',
+      image: '',
       block: 13,
       module_id: 'a5df9455-4d7f-4f52-94cb-eb830b416cad',
       user_id: '911cac15-2492-400e-9d86-b4fca881de8e'
@@ -528,6 +543,7 @@ module.exports = {
       type: 'multi-choice',
       difficulty: 2,
       theme: 'Ciclo de Vida de Componentes e React Router',
+      image: '',
       block: 13,
       module_id: 'a5df9455-4d7f-4f52-94cb-eb830b416cad',
       user_id: '911cac15-2492-400e-9d86-b4fca881de8e'
@@ -538,6 +554,7 @@ module.exports = {
       type: 'multi-choice',
       difficulty: 2,
       theme: 'Ciclo de Vida de Componentes e React Router',
+      image: '',
       block: 13,
       module_id: 'a5df9455-4d7f-4f52-94cb-eb830b416cad',
       user_id: '911cac15-2492-400e-9d86-b4fca881de8e'
@@ -548,6 +565,7 @@ module.exports = {
       type: 'multi-choice',
       difficulty: 2,
       theme: 'Ciclo de Vida de Componentes e React Router',
+      image: '',
       block: 13,
       module_id: 'a5df9455-4d7f-4f52-94cb-eb830b416cad',
       user_id: '911cac15-2492-400e-9d86-b4fca881de8e'
@@ -558,6 +576,7 @@ module.exports = {
       type: 'multi-choice',
       difficulty: 2,
       theme: 'Ciclo de Vida de Componentes e React Router',
+      image: '',
       block: 13,
       module_id: 'a5df9455-4d7f-4f52-94cb-eb830b416cad',
       user_id: '911cac15-2492-400e-9d86-b4fca881de8e'
@@ -568,6 +587,7 @@ module.exports = {
       type: 'multi-choice',
       difficulty: 2,
       theme: 'Ciclo de Vida de Componentes e React Router',
+      image: '',
       block: 13,
       module_id: 'a5df9455-4d7f-4f52-94cb-eb830b416cad',
       user_id: '911cac15-2492-400e-9d86-b4fca881de8e'
@@ -578,6 +598,7 @@ module.exports = {
       type: 'multi-choice',
       difficulty: 2,
       theme: 'Ciclo de Vida de Componentes e React Router',
+      image: '',
       block: 15,
       module_id: 'a5df9455-4d7f-4f52-94cb-eb830b416cad',
       user_id: '911cac15-2492-400e-9d86-b4fca881de8e'
@@ -588,6 +609,7 @@ module.exports = {
       type: 'multi-choice',
       difficulty: 2,
       theme: 'Testes automatizados com React Testing Library',
+      image: '',
       block: 15,
       module_id: 'a5df9455-4d7f-4f52-94cb-eb830b416cad',
       user_id: '911cac15-2492-400e-9d86-b4fca881de8e'
@@ -598,6 +620,7 @@ module.exports = {
       type: 'multi-choice',
       difficulty: 2,
       theme: 'Testes automatizados com React Testing Library',
+      image: '',
       block: 15,
       module_id: 'a5df9455-4d7f-4f52-94cb-eb830b416cad',
       user_id: '911cac15-2492-400e-9d86-b4fca881de8e'
@@ -608,6 +631,7 @@ module.exports = {
       type: 'multi-choice',
       difficulty: 2,
       theme: 'Testes automatizados com React Testing Library',
+      image: '',
       block: 15,
       module_id: 'a5df9455-4d7f-4f52-94cb-eb830b416cad',
       user_id: '911cac15-2492-400e-9d86-b4fca881de8e'
@@ -618,6 +642,7 @@ module.exports = {
       type: 'multi-choice',
       difficulty: 2,
       theme: 'Testes automatizados com React Testing Library',
+      image: '',
       block: 15,
       module_id: 'a5df9455-4d7f-4f52-94cb-eb830b416cad',
       user_id: '911cac15-2492-400e-9d86-b4fca881de8e'
@@ -628,6 +653,7 @@ module.exports = {
       type: 'multi-choice',
       difficulty: 2,
       theme: 'Contest API e React Hooks',
+      image: '',
       block: 18,
       module_id: 'a5df9455-4d7f-4f52-94cb-eb830b416cad',
       user_id: '911cac15-2492-400e-9d86-b4fca881de8e'
@@ -638,6 +664,7 @@ module.exports = {
       type: 'multi-choice',
       difficulty: 2,
       theme: 'Contest API e React Hooks',
+      image: '',
       block: 18,
       module_id: 'a5df9455-4d7f-4f52-94cb-eb830b416cad',
       user_id: '911cac15-2492-400e-9d86-b4fca881de8e'
@@ -648,6 +675,7 @@ module.exports = {
       type: 'multi-choice',
       difficulty: 2,
       theme: 'Contest API e React Hooks',
+      image: '',
       block: 18,
       module_id: 'a5df9455-4d7f-4f52-94cb-eb830b416cad',
       user_id: '911cac15-2492-400e-9d86-b4fca881de8e'
@@ -658,6 +686,7 @@ module.exports = {
       type: 'multi-choice',
       difficulty: 2,
       theme: 'Contest API e React Hooks',
+      image: '',
       block: 18,
       module_id: 'a5df9455-4d7f-4f52-94cb-eb830b416cad',
       user_id: '911cac15-2492-400e-9d86-b4fca881de8e'
@@ -668,6 +697,7 @@ module.exports = {
       type: 'multi-choice',
       difficulty: 2,
       theme: 'Contest API e React Hooks',
+      image: '',
       block: 18,
       module_id: 'a5df9455-4d7f-4f52-94cb-eb830b416cad',
       user_id: '911cac15-2492-400e-9d86-b4fca881de8e'
