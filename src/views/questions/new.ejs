@@ -4,12 +4,17 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/styles/new.css">
   <title>Nova pergunta</title>
 </head>
 <body>
-  <header>Adicionar pergunta</header>
+  <header>
+    <a href="/admin/questions" class="go-back-link">Voltar</a>
+    <h1>
+      Adicionar pergunta
+    </h1>
+    </header>
   <main>
-    <a href="/admin/questions">Voltar</a>
     <% if(error) { %>    
       <h3>Erro: <%= error.message %> </h3>
     <% } %> 
