@@ -1,10 +1,10 @@
 :root {
   --primary-color: #80cbc4;
-  --primary-light: #b2fef7;
+  --primary-light: #d3f1ee;
   --primary-dark: #4f9a94;
   --secondary-color: #ff8f00;
   --secondary-light: #ffc046;
-  --secondary-dark: #c56000;
+  --secondary-dark: #e48100;
   --plain-text: #212121;
   font-size: 16px;
 }
@@ -16,19 +16,24 @@
   box-sizing: border-box;
   color: var(--plain-text);
 }
+
 header {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   height: fit-content;
-  background-color: var(--primary-color);
   padding: 1rem 2rem;
 }
 
 header h1 {
+  border-left: 4px solid var(--primary-dark);
+  margin-left: 2rem;
+  padding-left: 1rem;
   width: 100%;
-  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
 }
 
 .go-back-link {
@@ -40,6 +45,74 @@ header h1 {
   cursor: pointer;
 }
 
-main {
+.form-new-question {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
   padding: 2rem;
+  width: 60%;
+  align-items: flex-end;
+}
+
+.form-new-question fieldset {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background: var(--primary-color);
+  border: none;
+  border-radius: 2px;
+  margin-bottom: 1rem;
+  justify-content: space-between;
+}
+
+.form-new-question label {
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.form-new-question .fieldset-new-question label:nth-child(1) {
+  width: 60%;
+}
+
+.form-new-question label input, .form-new-question label select {
+  padding: 0.5rem;
+}
+
+.fieldset-new-question, .fieldset-new-answers {
+  padding: 1rem;
+}
+
+.form-new-question .fieldset-new-answers .answer-field {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: left;
+}
+
+.form-new-question .fieldset-new-answers .answer-field label {
+  width: 80%;
+}
+
+.form-new-question .fieldset-new-answers .answer-field label textarea {
+  resize: vertical;
+  min-height: 35px;
+}
+
+.button-submit-question {
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: var(--secondary-color);
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.button-submit-question:hover, .go-back-link:hover {
+  transition: 0.2s ease-in-out;
+  background-color: var(--secondary-dark);
 }
