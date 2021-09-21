@@ -1,39 +1,59 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/styles/styles.css" />
   <title>Detalhes da pergunta</title>
 </head>
-<body>
-  <header>Questão</header>
-  <main>
-    <a href="/admin/questions">Voltar</a>
-    <a href=<%= `/admin/questions/${question.id}/update` %>><button>Atualizar</button></a>
-    <a href=<%= `/admin/questions/${question.id}/delete` %>><button>Deletar</button></a>
 
-    <p>Id: <%= question.id %></p>
-    <h4>Pergunta: <%= question.question %></h4>
+<body>
+  <header>
+    <a class="go-back-link" href="/admin/questions">⬅&nbsp;Voltar</a>
+    <h1>Questão</h1>
+  </header>
+  <main class="main-question-details">
+    <div>
+      <a href=<%=`/admin/questions/${question.id}/update` %>><button
+          class="question-details-update-button">Atualizar</button></a>
+      <a href=<%=`/admin/questions/${question.id}/delete` %>><button
+          class="question-details-delete-button">Deletar</button></a>
+    </div>
+
+    <p>Id: <%= question.id %>
+    </p>
+    <h4>Pergunta: <%= question.question %>
+    </h4>
     <% if (question.image) { %>
-      <img src=<%= `/api/v1/questions/image?link=${question.image}`%> width="300px"/>
-    <% } %> 
-    <p>Tipo: <%= question.type %></p>
-    <p>Modulo: <%= question.module_data.module %></p>
-    <p>Bloco: <%= question.block %></p>
-    <p>Tema: <%= question.theme %></p>
-    <p>Dificuldade: <%= question.difficulty %></p>
-    <p>Usuário: <%= question.userId %></p>
-    <br />
-    <br />
-    <% question.answers.forEach((answer) => { %>
-      <p>Id: <%= answer.id %></p>
-      <p>Resposta: <%= answer.answer %></p>
-      <p>Correta: <%= answer.isRight %></p>
-      <p>Dica: <%= answer.hint %></p>
-      <p>Link: <a href=<%= answer.link %>><%= answer.link %></a></p>
-      <br />
-    <% }) %> 
+      <img src=<%=`/api/v1/questions/image?link=${question.image}`%> width="300px"/>
+      <% } %>
+        <p>Tipo: <%= question.type %>
+        </p>
+        <p>Modulo: <%= question.module_data.module %>
+        </p>
+        <p>Bloco: <%= question.block %>
+        </p>
+        <p>Tema: <%= question.theme %>
+        </p>
+        <p>Dificuldade: <%= question.difficulty %>
+        </p>
+        <p>Usuário: <%= question.userId %>
+        </p>
+        <% question.answers.forEach((answer)=> { %>
+          <hr>
+          <p>Id: <%= answer.id %>
+          </p>
+          <p>Resposta: <%= answer.answer %>
+          </p>
+          <p>Correta: <%= answer.isRight %>
+          </p>
+          <p>Dica: <%= answer.hint %>
+          </p>
+          <p>Link: <a href=<%=answer.link %>><%= answer.link %></a></p>
+          <% }) %>
   </main>
 </body>
+
 </html>
