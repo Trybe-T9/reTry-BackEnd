@@ -1,41 +1,55 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="stylesheet" href="/styles/styles.css" />
+  <title>Questions</title>
 </head>
+
 <body>
-  <header>Questions</header>
-  <main>
-    <a href="/admin">Voltar</a>
-    <a href="/admin/questions/create"><button>Criar uma pergunta</button></a>
+  <header>
+    <a class="go-back-link" href="/admin">⬅&nbsp;Voltar</a>
+    <h1>Questions</h1>
+  </header>
+  <main class="main-questions">
+    <a href="/admin/questions/create"><button class="button-create">Criar uma pergunta</button></a>
     <form id="filters" action="/admin/questions/search" method="GET">
-      <label>
-        Perguntas por pagina:
-        <% console.log(query); %> 
-        <input type="number" name="perpage" value=<%= query.perpage || 10 %> />
-      </label>
-      <label>
-        Pagina
-        <input type="number" name="page" value=<%= query.page || 1 %> />
-      </label>
+      <div>
+        <label>
+          Perguntas por página:
+          <% console.log(query); %>
+            <input type="number" name="perpage" value=<%=query.perpage || 10 %> />
+        </label>
+        <label>
+          Página
+          <input type="number" name="page" value=<%=query.page || 1 %> />
+        </label>
+      </div>
       <div id="optionalFilters"></div>
-      <button type="submit">Filtrar</button>
+      <button class="filter-button" type="submit">Filtrar</button>
     </form>
     <button id="filtersButton">Filtros</button>
-    <% questions.forEach((question) => { %>
-      <div>
-        <p>Id: <%= question.id %></p>
-        <h4>Pergunta: <%= question.question %></h4>
-        <p>Tipo: <%= question.type %></p>
-        <p>Modulo: <%= question.module_data.module %></p>
-        <p>Bloco: <%= question.block %></p>
-        <a href=<%= `/admin/questions/${question.id}` %>><button>Ver pergunta</button></a>
+    <% questions.forEach((question)=> { %>
+      <div class="question-container">
+        <hr>
+        <p>Id: <%= question.id %>
+        </p>
+        <h4>Pergunta: <%= question.question %>
+        </h4>
+        <p>Tipo: <%= question.type %>
+        </p>
+        <p>Modulo: <%= question.module_data.module %>
+        </p>
+        <p>Bloco: <%= question.block %>
+        </p>
+        <a href=<%=`/admin/questions/${question.id}` %>><button class="view-question-button">Ver pergunta</button></a>
       </div>
-    <% }) %>
+      <% }) %>
   </main>
   <script src="/questions/index.js"></script>
 </body>
+
 </html>

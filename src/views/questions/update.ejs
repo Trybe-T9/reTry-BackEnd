@@ -1,157 +1,156 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nova pergunta</title>
+  <link rel="stylesheet" href="/styles/styles.css" />
+  <title>Editar pergunta</title>
 </head>
+
 <body>
-
-  <header>Adicionar pergunta</header>
-
+  <header>
+    <a href='<%= `/admin/questions/${question.id}` %>' class="go-back-link">&#11013;&nbsp;Voltar</a>
+    <h1>Editar pergunta</h1>
+  </header>
   <main>
+    <% if(error) { %>
+      <h3>Erro: <%= error.message %>
+      </h3>
+      <% } %>
 
-    <a href='<%= `/admin/questions/${question.id}` %>' >Voltar</a>
-
-    <% if(error) { %>    
-      <h3>Erro: <%= error.message %> </h3>
-    <% } %> 
-
-    <form action=<%= `/admin/questions/${question.id}/update` %> method="POST">
-
-      <label>
-        Pergunta: 
-        <input name="question" value='<%= question.question %>' />
-      </label>
-
-      <label>
-        Tipo:
-
-        <select name="type" id="type" >
-
-          <option 
-            value="multi-choice" 
-            <%- question.type === 'multi-choice' ? 'selected' : '' %> 
+        <form action=<%=`/admin/questions/${question.id}/update` %>
+          method="POST"
+          class="form-new-question"
           >
-            Multipla escolha
-          </option>
+          <fieldset class="fieldset-new-question">
+            <label>
+              Pergunta:
+              <input name="question" value='<%= question.question %>' />
+            </label>
 
-          <option 
-            value="boolean"
-            <%- question.type === 'boolean' ? 'selected' : '' %>
-          >
-            Verdadeiro ou falso
-          </option>
+            <label>
+              Tipo:
 
-        </select>
+              <select name="type" id="type">
 
-      </label>
+                <option value="multi-choice" <%- question.type==='multi-choice' ? 'selected' : '' %>
+                  >
+                  Multipla escolha
+                </option>
 
-      <label>
+                <option value="boolean" <%- question.type==='boolean' ? 'selected' : '' %>
+                  >
+                  Verdadeiro ou falso
+                </option>
 
-        Dificuldade:
-        <select name="difficulty">
-          <option value="1" <%- question.difficulty === 1 ? 'selected' : '' %>>Fácil</option>
-          <option value="2" <%- question.difficulty === 2 ? 'selected' : '' %>>Médio</option>
-          <option value="3" <%- question.difficulty === 3 ? 'selected' : '' %>>Difícil</option>
-        </select>
+              </select>
 
-      </label>
+            </label>
 
-      <label>
-        Tema:
-        <input type="text" name="theme"  value='<%= question.theme %>' />
-      </label>
+            <label>
 
-      <label>
-        Image:
-        <input type="text" name="image" value='<%= question.image %>' disabled />
-      </label>
+              Dificuldade:
+              <select name="difficulty">
+                <option value="1" <%- question.difficulty===1 ? 'selected' : '' %>>Fácil</option>
+                <option value="2" <%- question.difficulty===2 ? 'selected' : '' %>>Médio</option>
+                <option value="3" <%- question.difficulty===3 ? 'selected' : '' %>>Difícil</option>
+              </select>
 
-      <label>
-        Modulo:
+            </label>
 
-        <select name="module_id">
+            <label>
+              Tema:
+              <input type="text" name="theme" value='<%= question.theme %>' />
+            </label>
 
-          <option 
-            value="efff8570-5cb7-4090-bd58-46f4b5a335a6"
-            <%- question.module_id === 'efff8570-5cb7-4090-bd58-46f4b5a335a6' ? 'selected' : '' %>
-          >
-            Fundamentos
-          </option>
+            <label>
+              Image:
+              <input type="text" name="image" value='<%= question.image %>' disabled />
+            </label>
 
-          <option 
-            value="a5df9455-4d7f-4f52-94cb-eb830b416cad"
-            <%- question.module_id === 'a5df9455-4d7f-4f52-94cb-eb830b416cad' ? 'selected' : '' %>
-          >
-            Front-end
-          </option>
+            <label>
+              Modulo:
 
-          <option 
-            value="afdd5680-b811-4aeb-b229-6e7f3351bd01"
-            <%- question.module_id === 'afdd5680-b811-4aeb-b229-6e7f3351bd01' ? 'selected' : '' %>
-          >
-            Back-end
-          </option>
+              <select name="module_id">
 
-          <option 
-            value="f3ec9930-d2e3-4423-88e8-a28c6aa0265a"
-            <%- question.module_id === 'f3ec9930-d2e3-4423-88e8-a28c6aa0265a' ? 'selected' : '' %>
-          >
-            Ciência da computação
-          </option>
+                <option value="efff8570-5cb7-4090-bd58-46f4b5a335a6" <%-
+                  question.module_id==='efff8570-5cb7-4090-bd58-46f4b5a335a6' ? 'selected' : '' %>
+                  >
+                  Fundamentos
+                </option>
 
-        </select>
+                <option value="a5df9455-4d7f-4f52-94cb-eb830b416cad" <%-
+                  question.module_id==='a5df9455-4d7f-4f52-94cb-eb830b416cad' ? 'selected' : '' %>
+                  >
+                  Front-end
+                </option>
 
-      </label>
+                <option value="afdd5680-b811-4aeb-b229-6e7f3351bd01" <%-
+                  question.module_id==='afdd5680-b811-4aeb-b229-6e7f3351bd01' ? 'selected' : '' %>
+                  >
+                  Back-end
+                </option>
 
-      <label>
-        Bloco:
-        <input type="number" name="block" min="1" max="38" value='<%= question.block %>' />
-      </label>
+                <option value="f3ec9930-d2e3-4423-88e8-a28c6aa0265a" <%-
+                  question.module_id==='f3ec9930-d2e3-4423-88e8-a28c6aa0265a' ? 'selected' : '' %>
+                  >
+                  Ciência da computação
+                </option>
 
-      <br />
+              </select>
 
-      <% question.answers.forEach((answer, index) => { %>
+            </label>
 
-        <label>
-          Answer Id:
-          <input type="text" value='<%= answer.id %>' name=<%=`answers[${index}][id]`%> />
-        </label>
+            <label>
+              Bloco:
+              <input type="number" name="block" min="1" max="38" value='<%= question.block %>' />
+            </label>
+          </fieldset>
+          <fieldset class="fieldset-new-answers">
 
-        <label>
-          Resposta:
-          <input type="text" value='<%= answer.answer %>' name=<%=`answers[${index}][answer]`%> />
-        </label>
+            <% question.answers.forEach((answer, index)=> { %>
+              <label class="answer-field">
+                <label>
+                  Answer Id:
+                  <input type="text" value='<%= answer.id %>' name=<%=`answers[${index}][id]`%> />
+                </label>
 
-        <label>
-          Resposta: 
+                <label>
+                  Resposta:
+                  <input type="text" value='<%= answer.answer %>' name=<%=`answers[${index}][answer]`%> />
+                </label>
 
-          <select name=<%=`answers[${index}][isRight]`%> >
-            <option value="true" <%- answer.isRight === true ? 'selected' : '' %> >Correta</option>
-            <option value="false" <%- answer.isRight === false ? 'selected' : '' %>>Errada</option>
-          </select>
+                <label>
+                  Resposta:
 
-        </label>
+                  <select name=<%=`answers[${index}][isRight]`%> >
+                    <option value="true" <%- answer.isRight===true ? 'selected' : '' %> >Correta</option>
+                    <option value="false" <%- answer.isRight===false ? 'selected' : '' %>>Errada</option>
+                  </select>
 
-        <label>
-          Dica: 
-          <textarea name=<%=`answers[${index}][hint]`%> ><%= answer.hint %></textarea>
-        </label>
+                </label>
 
-        <label>
-          Link: 
-          <input type="text" value='<%= answer.link %>' name=<%=`answers[${index}][link]`%> />
-        </label>
+                <label>
+                  Dica:
+                  <textarea name=<%=`answers[${index}][hint]`%> ><%= answer.hint %></textarea>
+                </label>
 
-        <br />
+                <label>
+                  Link:
+                  <input type="text" value='<%= answer.link %>' name=<%=`answers[${index}][link]`%> />
+                </label>
+              </label>
 
-      <% }) %> 
+              <% }) %>
+          </fieldset>
+          <button type="submit" class="button-submit-question">
+            Salvar
+          </button>
 
-      <button type="submit">Salvar</button>
-
-    </form>
+        </form>
   </main>
 </body>
+
 </html>

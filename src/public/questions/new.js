@@ -69,6 +69,7 @@ const createAnswers = (qtt) => {
   for(let index = 0; index < qtt; index += 1) {
     const label = document.createElement('label');
     label.innerText = `Resposta - ${index + 1}`;
+    label.className = 'answer-field';
 
     label.appendChild(newAnswer(index));
     label.appendChild(newRight(index));
